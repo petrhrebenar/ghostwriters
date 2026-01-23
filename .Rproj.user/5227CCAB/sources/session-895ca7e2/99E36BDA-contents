@@ -1,0 +1,266 @@
+---
+title: "Ghostwriters"
+output:
+  github_document:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+
+```
+
+```{r libraries, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(stringr)
+library(xml2)
+library(ggplot2)
+```
+
+# Load datasets
+
+```{r}
+
+texts <- read.csv("~/Desktop/Rko/DIPLOMKA/ccc_database/csv/ccc_texts.csv")
+
+meta <- read.csv("~/Desktop/Rko/DIPLOMKA/ccc_database/csv/ccc_metadata.csv")
+  meta$date_decision <- as.Date(meta$date_decision, format="%Y-%m-%d")
+  meta$date_submission <- as.Date(meta$date_submission, format="%Y-%m-%d")
+  meta$date_publication <- as.Date(meta$date_publication, format="%Y-%m-%d")
+
+separate_opinions <- read.csv("~/Desktop/Rko/DIPLOMKA/ccc_database/csv/ccc_separate_opinions.csv")
+
+verdicts <- read.csv("~/Desktop/Rko/DIPLOMKA/ccc_database/csv/ccc_verdicts.csv")
+```
+
+# Build dataset for further text analysis
+
+```{r}
+
+subset <- texts %>%
+  select(doc_id, text) %>%
+  left_join(
+    meta %>%
+      select(
+        doc_id,
+        date_decision,
+        date_submission,
+        type_decision,
+        importance,
+        judge_rapporteur_name,
+        judge_rapporteur_id,
+        type_verdict,
+        grounds,
+        separate_opinion,
+        formation,
+        outcome,
+        length_proceeding
+      ),
+    by = "doc_id"
+  )
+
+```
+
+# Filter single-authored disents for fingerprint
+
+```{r}
+
+subset_single_disent <- texts %>%
+  select(doc_id, text) %>%
+  left_join(
+    meta %>%
+      select(
+        doc_id,
+        date_decision,
+        date_submission,
+        type_decision,
+        separate_opinion,
+        formation,
+        length_proceeding
+      ),
+    by = "doc_id"
+  ) %>%
+  mutate(
+    separate_opinion = str_trim(as.character(separate_opinion))
+  ) %>%
+  filter(
+    !is.na(separate_opinion),
+    separate_opinion != "NA",
+    separate_opinion != ""
+  ) %>%
+  # drop "c(...)" strings => multi-judge dissents encoded as an R vector
+  filter(!str_detect(separate_opinion, "^c\\s*\\(.*\\)$"))
+
+```
+
+## Extract dissent from the text
+
+We keep only the text [after]{.underline} the paragraph containing one of these markers:
+
+-   Odlišné stanovisko
+
+-   "Odlišné-doplňující stanovisko"
+
+-   "Konkurující stanovisko"
+
+Case-insensitive matching is used, so even capitals "ODLIŠNÉ STANOVISKO" is automatically covered.
+
+```{r}
+
+extract_after_paragraph <- function(html, markers) {
+  if (is.na(html)) return(NA_character_)
+
+  # normalize non-breaking spaces
+  html2 <- str_replace_all(html, fixed("&nbsp;"), " ")
+
+  # convert to plain text (best-effort)
+  plain <- tryCatch(
+    xml_text(read_html(paste0("<body>", html2, "</body>"))),
+    error = function(e) html2
+  )
+
+  # escape regex metacharacters in markers
+  escape_regex <- function(x) {
+    str_replace_all(x, "([\\^$.|()\\[\\]{}*+?\\\\])", "\\\\\\1")
+  }
+  escaped <- vapply(as.character(markers), escape_regex, character(1))
+
+  # match any marker, case-insensitive
+  pattern <- paste0("(?i)(", paste(escaped, collapse = "|"), ")")
+  loc <- str_locate(plain, regex(pattern))
+  if (is.na(loc[1])) return(NA_character_)
+
+  # substring right after marker
+  after_marker <- str_trim(str_sub(plain, loc[2] + 1))
+
+  # end of marker paragraph = first blank line after marker
+  blank_loc <- str_locate(after_marker, "\\n\\s*\\n")
+  if (!is.na(blank_loc[1])) {
+    result <- str_sub(after_marker, blank_loc[2] + 1)
+  } else {
+    result <- after_marker
+  }
+
+  result <- str_trim(result)
+  if (result == "") NA_character_ else result
+}
+```
+
+```{r}
+markers <- c(
+  "Odlišné stanovisko",
+  "Odlišné-doplňující stanovisko",
+  "Konkurující stanovisko"
+)
+
+subset_disent2 <- subset_disent %>%
+  mutate(
+    separate_opinion_extracted = vapply(
+      text,
+      extract_after_paragraph,
+      character(1),
+      markers = markers
+    )
+  ) %>%
+  filter(!is.na(separate_opinion_extracted)) %>%
+  filter(!str_detect(separate_opinion_extracted, "^\\s*c\\s*\\(.*\\)\\s*$"))
+```
+
+### Quick integrity testing
+
+```{r}
+
+n_before <- nrow(subset_disent)
+n_after  <- nrow(subset_disent2)
+
+lost_docs <- setdiff(subset_disent$doc_id, subset_disent2$doc_id)
+
+cat("Rows in subset_disent  :", n_before, "\n")
+cat("Rows in subset_disent2 :", n_after,  "\n")
+
+if (length(lost_docs) > 0) {
+  cat(
+    "Dissents from these cases: ",
+    paste(lost_docs, collapse = ", "),
+    " were not extracted due to unknown issue.\n",
+    sep = ""
+  )
+} else {
+  cat("All dissents were extracted successfully.\n")
+}
+
+```
+
+## Plots
+
+### Plot: single-authored dissents by judge
+
+```{r}
+subset_disent2 %>%
+  count(separate_opinion) %>%
+  ggplot(aes(x = reorder(separate_opinion, -n), y = n)) +
+  geom_col() +
+  geom_text(aes(label = n), vjust = -0.3, size = 3) +
+  labs(
+    x = "Dissenting judge (single author)",
+    y = "Number of observations"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Plot: disents over time
+
+```{r plot-dissents-over-time, fig.width=8, fig.height=4}
+subset_disent2 %>%
+  mutate(year = as.integer(format(date_decision, "%Y"))) %>%
+  filter(!is.na(year)) %>%
+  count(year) %>%
+  ggplot(aes(x = year, y = n)) +
+  geom_col() +
+  labs(x = "Decision year", y = "Single-authored dissents") +
+  theme_minimal()
+```
+
+### Plot: length of extracted dissent text (word count)
+
+```{r}
+subset_disent2 %>%
+  mutate(words = str_count(separate_opinion_extracted, "\\S+")) %>%
+  ggplot(aes(x = words)) +
+  geom_histogram(bins = 30) +
+  labs(x = "Words in extracted separate opinion", y = "Number of cases") +
+  theme_minimal()
+```
+
+### Plot:
+
+```{r}
+subset_disent2 %>%
+  mutate(words = str_count(separate_opinion_extracted, "\\S+")) %>%
+  group_by(separate_opinion) %>%
+  summarise(
+    n = n(),
+    avg_words = mean(words, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(avg_words)) %>%
+  ggplot(aes(x = reorder(separate_opinion, avg_words), y = avg_words)) +
+  geom_col() +
+  geom_text(aes(label = paste0(round(avg_words), " (n=", n, ")")),
+            hjust = -0.05, size = 3) +
+  coord_flip() +
+  labs(
+    x = "Dissenting judge (single author)",
+    y = "Average dissent length (words)"
+  ) +
+  theme_minimal() +
+  expand_limits(y = 0) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.12)))
+
+```
