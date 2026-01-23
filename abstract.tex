@@ -1,0 +1,68 @@
+%--------------------
+% Packages
+% -------------------
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Use Times Font
+\usepackage{amsmath} % For \text in math mode
+\usepackage{multicol}
+\usepackage[pdftex]{graphicx} % Required for including pictures
+\usepackage[english]{babel} % English translations
+\usepackage{calc} % To reset the counter in the document after title page
+\usepackage{hyperref}
+\usepackage[authordate,  backend=biber]{biblatex-chicago}
+    \addbibresource{references.bib} % citation style AUTHOR (YEAR), or AUTHOR [NUMBER]
+%\usepackage[a-2u]{pdfx}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem} % Includes lists
+\usepackage[nottoc]{tocbibind} % makes sure that bibliography and the lists
+			    % of figures/tables are included in the table
+			    % of contents
+\usepackage{dcolumn}        % improved alignment of table columns
+\usepackage{booktabs}       % improved horizontal lines in tables
+\usepackage{paralist}       % improved enumerate and itemize
+\usepackage{setspace}
+\usepackage[acronym,nonumberlist]{glossaries}
+    \makeglossaries
+    \input{acronyms}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{authblk}        %author affiliation format
+    \title{\textbf{Judicial Ghostwriting:} \\ \textbf{Evidence from the Czech Constitutional Court}\thanks{This work has been supported by Charles University Grant Agency GAUK No. 18825 "Brains Behind the Bench: Who Are Judicial Clerks and Do They Tip the Scales?", principal investigator: Petr Hrebenár}}    
+    
+    \author[1,2]{Petr Hrebenár \thanks{Corresponding author: \texttt{petahrebenar@icloud.com}}}
+    \author[1]{Tomáš Knap}
+
+    \affil[1]{Charles University}
+    \affil[2]{Bocconi University}
+    
+    \date{}
+
+    \linespread{1.2} % Set linespace
+    \usepackage[a4paper, lmargin=0.1\paperwidth, rmargin=0.1\paperwidth, tmargin=0.08\paperheight, bmargin=0.08\paperheight]{geometry} % Margins
+    \doublespacing
+
+%-----------------------
+% Begin document
+%-----------------------
+
+\begin{document}
+
+\maketitle
+    %This version: \today
+    %\href{https://www.example.com}{Click here for most recent version}
+    
+% Abstract Section
+\noindent \textbf{Abstract}\\
+The relationship between judges and their clerks remains largely unknown for the European scholarship. This Article analyzes the text of the Justices' opinions to empirically evaluate the nature of judicial authorship at the Czech Constitutional Court. Adopting the methodology of Rosenthal and Yoon (2011), who examined the clerkship at the Supreme Court, we examine the frequency of common function words—stylistic markers independent of legal subject matter—to distinguish the writing styles of individual Justices.
+
+Specifically, the paper will construct variability scores for the Justices to measure the consistency of their writing styles. The central intuition of this approach is that the more participants involved in the opinion-writing process, the more heterogeneous the writing style of the Justice’s opinions becomes. Therefore, we hypothesize that Justices who write their own opinions will possess significantly less variable writing styles than those who rely heavily on their clerks. Additionally, we hypothesize that the variability of writing styles correlates with the judges' professional background; specifically, that those who simultaneously lecture at universities may grant their clerks greater discretion due to competing time demands. By applying this statistical textual analysis with the use of the state-of-the art LLMs to the Czech context, this study aims to reveal the extent of "judicial ghostwriting" at the Constitutional Court and provide rare empirical insight into the internal production of constitutional case law.
+
+\vspace{0.5cm}
+
+% Keywords Section
+\noindent \textbf{Keywords:} Judicial clerks, judicial ghostwriting, judicial behaviour, court administration, Czech Constitutional Court
+\end{document}
