@@ -50,5 +50,22 @@ TP: ze ###subset_disent2 vybere separate_opinion hodnoty Kateřina Šimáčková
 
 DATA
 
+csv struktura
 
+| Column | Description | Example |
+| :--- | :--- | :--- |
+| `doc_id` | ECLI identifier of the decision | `ECLI:CZ:US:2023:Pl.US.43.23.2` |
+| `text` | Full text of the decision (very long, this is why the file is so large) | Czech legal text |
+| `date_decision` | Date the decision was issued | `2023-12-06` |
+| `date_submission` | Date the case was submitted | `2023-10-09` |
+| `type_decision` | Type of decision — e.g. Usnesení (resolution) or Nález (finding/judgment) | `Nález` |
+| `importance` | Numeric importance rating | `2`, `3`, `4` |
+| `judge_rapporteur_name`| Name of the reporting judge | Jiří Zemánek |
+| `judge_rapporteur_id` | ID of the reporting judge | `J:35` |
+| `type_verdict` | Specific verdict type(s) — can be multiple values in R vector notation | `odmítnuto pro neoprávněnost navrhovatele` |
+| `grounds` | Whether decided on admissibility or merits | `merits` |
+| `separate_opinion` | Whether there was a separate/dissenting opinion (NA if none) | `NA` |
+| `formation` | Court formation — Plenum, Third Chamber, etc. | `Plenum` |
+| `outcome` | High-level outcome — rejected, granted, etc. | `granted` |
+| `length_proceeding` | Duration of the proceeding in days | `58` |
 
