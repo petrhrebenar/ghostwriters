@@ -44,3 +44,11 @@ This dataset focuses exclusively on dissenting opinions and is used to construct
 ## 5. minutes 10.2.
 
 TP: ze ###subset_disent2 vybere separate_opinion hodnoty Kateřina Šimáčková a Vojtěch Šimíček - připraví pilot pro fingerprint soudců 
+
+
+
+
+DATA
+
+
+
