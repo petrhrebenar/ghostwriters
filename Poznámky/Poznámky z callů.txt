@@ -1,0 +1,15 @@
+Poznámky z callů
+
+13.2. TT
+Mít metodu, která mi řekne a bude mi říkat něoco o absolutní pravděpodobnost 
+
+feature importance, podívat se na techniky teorie práva, mechanismus zdůvodnění 
+
+
+- chceme porovnat víc metod, robczech etc. potom kombinace všech těch metod a jejich výsledků nám možná dá teda pravděpodobnost, že jde o daného autora?
+- Zkusili jsme oldhea\d metodu s UDPIPE, budem zkoušet robeczech, potom co se zamyslet nad manuálnější metodou, kterou pak zautomatizujeme a budem 
+- semnaticke featury, ktere pridavaji presnost - by mohl byt hezky paper, chci trosku poptat petra, jestli by to nebylo mozny nejaky tyhle featury vymyslet/vytvořit
+
+
+- SPEECH ACTS
+- Plus se podívat na síťovou analýzu rozhodnutí a jejich citace + se podívat an citace literatury????
