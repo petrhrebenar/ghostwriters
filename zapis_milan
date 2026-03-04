@@ -1,0 +1,72 @@
+Zápis Milan Straka
+
+
+Teď jsme v situaci, kdy máme texty lidí a ty texty těch lidí budeme rozpoznávat. 
+Chceme i texty těch asistentů, m ůžeme koukat na texty těch ostatní 
+Úspěšnost klasifikátorů může záviset i na doméně - jestli to je trest nebo to neni trest
+
+čím víc textu tím víc adidas
+Byli by v tom dobrý lidi?
+Klasifikace textu 
+
+data nebudou přesně ty co chceme - jiná doména 
+feature importance 
+
+
+Největší věc bude - udělat explainability - věřit tomu, že ty čísla dělaj, co chceme 
+
+Chceme se podívat na ty data fyzicky a zkusit jestli to umíme 
+
+u logistický regrese - technologicky to jde, je to přesvědčivý??? 
+Potřebujeme něco konkrétního - třeba ty ustálené výrazy - úspěšnosti můžou být pěkný, ale vysvětlit to té veřejnosti 
+
+- vybarvovat si texty, vzít předtrénovanej model - robczech - deeplearning metody - podívat se na jednotlivá slova ve větě (maskovat slova atp, nahrazovat náhodným slovem a zkoušet, jak ten model je schopnej predikovat potom, jestli budeme mít stejnou úspešniost , důležitost slov, zkusit sentiment??? Transformeroý enkodér???
+Vybarvovat slova podle toho jak moc na nich jde ukázat ta fíčura??
+
+
+Pokus dát třeba ty fíčury co jsme našli a zkusit, jestli je člověk schopnej rozeznat podle fičur odlišný autory
+
+Zkusit vzít třeba 10 textů od toho danýho člověka a 10 od někoho jinýho a zkusit, jak je člověk schopněj to rozhodit , případně na základě 
+
+
+Starak by se bál nefinetunovaných modelů - dokud člověk nesáhhnul do modelu, tak to nefungovalo tak dobře, model implicitně pokud neví na co má koukat, tak 
+
+Model bude využívat i obsah.
+
+Silnáý kontaminace obsahu 
+
+zajímavý experiment - dokumenty jsou dlouhý, v tuhle chvíli má smysl finetunovat na nějakých chuncích. Vemu třeba 150 slov a z každých 150 slov se snažím říct jestli to napsal dotyčnej člověk, pak by se to agregovalo 
+
+Vzít text, smazat formy, vzít jenom morofologický věci, závislostní hrany - třeba stromy? Syntaktický featury??? 
+
+
+Použít novej UDPIPE!!! - webová služba má restapi, dvojka dělá půlku chyb co 1, háže to conll-u 
+
+pdwc model od straky - používá to morfologický slovník interně - je to jenom pro češtinu 
+
+vzít unigramy a bigramy i syntaktický??? 
+
+Potřebujeme to hlavně ukázat!!!! VIZUALIZACE!!!!!
+
+
+Malý desítky dokumentů jsou nice 
+
+Nechat si vizuálně nakreslit co jsou ty slova jestli jsou rozdílný ty slova pokud model vidí formy nebo nevidí formy/vidí fíčury/nevidí fíčury
+
+Vzít si článek, kterej dělá sémantickou analýzu a udělat to, co tam dělaj 
+
+Podívat se do loňskýho deeplearningu, kde sentiment analysis, architektonicky je to stejný co chceme dělat
+
+INTUITIVNĚ BUDE PŘÍNOSNÝ SE PODÍVAT JAK  ten model rozhoduje 
+
+
+Zkoušet věci ze všech stran
+
+
+Synthetic data asi spíš nemaj smysl 
+
+
+Syntéza člověka x LLmka 
+
+Vyšší metody/vyšší signál - nebude to lepší u llmek?
+
