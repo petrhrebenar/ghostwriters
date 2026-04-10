@@ -13,3 +13,9 @@ feature importance, podívat se na techniky teorie práva, mechanismus zdůvodn�
 
 - SPEECH ACTS
 - Plus se podívat na síťovou analýzu rozhodnutí a jejich citace + se podívat an citace literatury????
+
+
+
+Call s Tomem 10.4. 
+
+Překopat model aby rozpoznávqal ty jednotlivé soudce 
