@@ -264,6 +264,51 @@ answer is typically at rank 2 (MRR = 0.815).
 
 ### 4.2 Per-author binary metrics (logistic regression LOO-CV)
 
+**Metric definitions.** All metrics below are computed on the 277-row LOO
+probability matrix. For each author J we extract column J — the LOO
+probability that each of the 277 held-out samples was written by J — and
+compare it to the binary truth label (`y == J`).
+
+- **N** — Number of dissents by this judge in the training corpus
+  (equivalently, the number of positive samples for this author's binary
+  classifier).
+
+- **ROC AUC** (Receiver-Operating-Characteristic Area Under Curve). The
+  probability that a randomly-chosen *positive* sample (dissent actually
+  written by J) gets a higher score than a randomly-chosen *negative*
+  sample (dissent by someone else). **Threshold-free**, robust to class
+  imbalance, in `[0, 1]`; 0.5 = random, 1.0 = perfect separation. This is
+  our primary per-author quality metric because the downstream application
+  compares probabilities across authors *without* any fixed threshold.
+
+- **PR AUC** (Precision–Recall Area Under Curve, also known as Average
+  Precision). Area under the curve obtained by varying the decision
+  threshold and plotting precision vs. recall. More informative than ROC
+  AUC under strong class imbalance (positive class = 2–12 % of samples
+  here): a classifier can have ROC AUC 0.95 and still have PR AUC 0.3 if
+  the top of the ranking is contaminated with false positives. A
+  trivial "always predict positive" classifier reaches PR AUC = prevalence
+  (≈ 2–12 % here), so values above ~0.3 already indicate real signal.
+
+- **F1, Precision, Recall** — Computed at the **fixed default threshold
+  of 0.5** on the raw binary probability:
+  - **Precision** = TP / (TP + FP) — of the samples flagged as J, how
+    many were actually J.
+  - **Recall** = TP / (TP + FN) — of the actual J samples, how many were
+    correctly flagged.
+  - **F1** = harmonic mean of precision and recall. Sensitive to the
+    0.5 threshold; several authors below have F1 = 0.0 despite ROC AUC
+    ≥ 0.94 simply because their `class_weight='balanced'` classifier
+    never produces a raw probability ≥ 0.5 on the positive samples (a
+    calibration issue, not a ranking issue).
+
+**Note on the two "AUC" metrics.** ROC AUC tells you "given one positive
+and one negative sample at random, will the model rank them correctly?"
+PR AUC tells you "can the model reliably retrieve the positives near the
+top of the ranked list?" For ghostwriting detection we mostly care about
+the ranking of authors *per decision* (so ROC AUC is the key metric), but
+PR AUC is a useful secondary check for authors with very few samples.
+
 Authors are sorted by ROC AUC (descending).
 
 | Author | N | ROC AUC | PR AUC | F1 | Prec | Rec |
@@ -433,7 +478,53 @@ the attributed rapporteur have an anomalously low probability?"
 
 ## 5. Implementation
 
-### 5.1 Project structure
+### 5.1 Output files
+
+All files below are auto-generated into `experiment_02/outputs/` by
+`scripts/run_pipeline.py`. The `_logistic` suffix refers to the classifier
+backend; a parallel `_xgboost` set is produced when `--classifier xgboost`
+or `--classifier both` is used.
+
+**Intermediate artifacts (`.pkl`, gitignored):**
+
+| File | Produced by | Contents |
+|---|---|---|
+| `corpus.pkl` | step 1 `load` | Filtered pandas DataFrame: 277 rows × 10 cols (doc_id, dissent text, full decision text, metadata, author label). |
+| `dissent_documents.pkl` | step 2 `udpipe_dissents` | List of 277 `Document` dataclasses — UDPipe-tokenized / POS-tagged / lemmatized / morph-annotated dissents. |
+| `dissent_features.pkl` | step 3 `features_dissents` | `{X: np.ndarray(277, 740), y: np.ndarray(277,), feature_names: list[str], vocabs: dict}`. `vocabs` holds the char-3gram / POS-bigram / XPOS-bigram vocabularies built on dissents and reused for decisions. |
+| `decision_documents.pkl` | step 5 `udpipe_decisions` | Same structure as `dissent_documents.pkl` but for the 277 full decision texts. |
+| `decision_features.pkl` | step 6 `features_decisions` | `{X: np.ndarray(277, 740)}` for the decisions, using the dissent-trained vocabularies. |
+| `trained_classifiers_<backend>.pkl` | step 7 `apply` | `{classifier: PerAuthorClassifier, scaler: StandardScaler, feature_names, vocabs}` — the 19 binary models fit on *all* 277 dissents, ready to score new texts. |
+
+**Human-readable CSV / Markdown outputs (committed):**
+
+| File | Shape | What it contains |
+|---|---|---|
+| `dissent_feature_matrix.csv` | 277 × 741 | Debug dump of the dissent feature matrix (doc_id + 740 features). Gitignored because large; regenerate with `--from-step features_dissents`. |
+| `loo_probabilities_<backend>.csv` | 277 × 39 | LOO-CV output. Columns: `true_author`, `prob_<J>` × 19 (raw LOO probability), `norm_<J>` × 19 (softmax across the 19 authors). Row *i* is the prediction for dissent *i* when held out. Used to compute all per-author metrics in §4.2. |
+| `authorship_probabilities_<backend>.csv` | 277 × 41 | **The main application output.** Scores of the 277 full *decisions* by the 19 classifiers. Columns: `doc_id`, `prob_<J>` × 19, `norm_<J>` × 19, `predicted_author` (argmax of raw probs), `max_probability`. Join on `doc_id` to cross-reference with rapporteur metadata. |
+| `feature_importance_<backend>.csv` | 380 × 6 | Top-20 discriminative features per author. Columns: `author`, `rank`, `feature`, `weight` (signed LR coefficient / XGBoost gain), `abs_weight`, `direction`. |
+| `feature_importance_analysis.md` | — | Narrative interpretation of `feature_importance_logistic.csv` (per-author top-5 + cross-author shared features). |
+| `loo_results.pkl` | — | Serialized dict of LOO-CV results (probabilities, per-author metrics, rank metrics) for reproducible plotting. Gitignored. |
+
+**Column conventions for all CSV outputs:**
+
+- `doc_id` — ECLI identifier of the Constitutional Court decision.
+- `prob_<author>` — raw independent binary probability P(author = J | text)
+  from J's own classifier. These 19 values are **not** constrained to sum
+  to 1.
+- `norm_<author>` — softmax of the 19 raw probabilities within a row,
+  forcing them to sum to 1. Convenient for "who is most likely among
+  these 19?" comparison; amplifies small gaps between raw probabilities,
+  so interpret alongside the raw values.
+- `predicted_author` — the author whose *raw* probability is the highest
+  in the row. Equivalent to argmax of `norm_*`.
+- `max_probability` — the raw probability of `predicted_author`, i.e.
+  the model's absolute confidence in its top pick. Low values (e.g. < 0.3)
+  mean no judge's classifier strongly matches the text — a candidate
+  signal that the text was written by someone outside the 19.
+
+### 5.2 Project structure
 
 ```
 experiment_02/
@@ -471,7 +562,7 @@ experiment_02/
             └── morphology.py         # NEW — XPOS bigrams + morph categories
 ```
 
-### 5.2 Pipeline steps
+### 5.3 Pipeline steps
 
 | Step | Name | Input | Output | Duration |
 |---|---|---|---|---|
@@ -499,7 +590,7 @@ poetry run python scripts/run_pipeline.py --from-step features_dissents
 poetry run python scripts/run_pipeline.py --from-step apply
 ```
 
-### 5.3 Dependencies
+### 5.4 Dependencies
 
 Managed via Poetry (`pyproject.toml`). Everything from Experiment 01, plus:
 
@@ -511,7 +602,7 @@ Python ≥ 3.11 is required. The `.env` file sets
 `PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring` to prevent Poetry from
 hanging on D-Bus keyring lookups on this machine.
 
-### 5.4 External model
+### 5.5 External model
 
 Same as Experiment 01: `czech-pdt-ud-2.5-191206.udpipe` from
 [LINDAT](https://lindat.mff.cuni.cz/repository/items/41f05304-629f-4313-b9cf-9eeb0a2ca7c6),
