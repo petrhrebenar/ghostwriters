@@ -407,9 +407,17 @@ the attributed rapporteur have an anomalously low probability?"
    interrupted at ~90 % completion due to wall-clock cost. The code supports
    it (`--classifier xgboost` / `--classifier both`); re-running with the
    current reduced settings (`n_estimators=50`) is a pending follow-up.
-4. **Feature importance not yet extracted.** The `extract_feature_importance`
-   helper is implemented and hooked into the pipeline, but the per-author
-   top-20 report has not been analyzed in this document.
+4. **Feature importance extracted but not yet cross-referenced with per-author
+   F1.** Per-author top-20 features (LR coefficients) are saved to
+   `outputs/feature_importance_logistic.csv` and analyzed in
+   `outputs/feature_importance_analysis.md`. Key findings: (a) the
+   `punct_;_per1k` (semicolon rate) feature is a top-20 discriminator for
+   7 of 19 judges with both positive and negative weights — semicolon usage
+   is a strong idiolectal marker; (b) the new XPOS-bigram morphology features
+   appear prominently for the highest-ROC-AUC authors (Jan Musil, Iva
+   Brožová, Josef Fiala); (c) Ivana Janů's top features max out at a weight
+   of only +0.33 (vs. +0.51 for Vojtěch Šimíček) — no dominant stylistic
+   peak, consistent with her low ROC AUC despite 32 training samples.
 5. **Genre mismatch dissent → decision.** Dissents are argumentative
    first-person texts; full decisions include boilerplate, procedural
    history, fact descriptions, and reasoning. Features like sentence length
