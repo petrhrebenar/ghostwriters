@@ -46,14 +46,15 @@ def _build_binary_classifier(
         scale = n_negative / max(n_positive, 1)
         return XGBClassifier(
             max_depth=3,
-            n_estimators=100,
-            learning_rate=0.1,
+            n_estimators=50,
+            learning_rate=0.15,
             scale_pos_weight=scale,
             reg_alpha=1.0,
             reg_lambda=1.0,
             random_state=42,
             eval_metric="logloss",
             verbosity=0,
+            n_jobs=1,
         )
     else:
         raise ValueError(f"Unknown classifier_type: {classifier_type}. Use 'logistic' or 'xgboost'.")
