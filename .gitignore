@@ -31,3 +31,6 @@ experiment_02/.env
 .vscode/
 *.swp
 *.swo
+
+# LibreOffice / Office lock files
+.~lock.*#
