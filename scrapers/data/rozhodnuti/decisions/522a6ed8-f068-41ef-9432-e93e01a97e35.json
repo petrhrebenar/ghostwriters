@@ -1,0 +1,546 @@
+{
+  "uuid": "522a6ed8-f068-41ef-9432-e93e01a97e35",
+  "header": [
+    {
+      "texts": [
+        {
+          "text": "Okresní soud v Mladé Boleslavi rozhodl samosoudkyní JUDr. Petrou Svobodovou ve věci",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalobkyně: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalobkyně",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "vykonávající činnost v České republice prostřednictvím ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "název žalobkyně",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", organizační složka podniku, sídlem ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "adresa žalobkyně",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "IČO",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "zastoupená advokátem ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "údaje o zástupci",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "proti",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalované: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalované",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "pro zaplacení 9 060,54 Kč s příslušenstvím",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    }
+  ],
+  "verdict": [
+    {
+      "texts": [
+        {
+          "text": "I. Žalovaná je povinna zaplatit žalobkyni částku ve výši 9 060,54 Kč s kapitalizovaným úrokem ve výši 281,88 Kč s kapitalizovaným úrokem ve výši 1 296,94 Kč s úrokem ve výši 9,90 % ročně z částky 9 060,54 Kč od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení, se zákonným úrokem z prodlení ve výši 10,00 % ročně z částky 9 060,54 Kč od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení, a to ve lhůtě 3 dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "II. Žalovaná je povinna zaplatit žalobkyni náhradu nákladů řízení ve výši 1 489 Kč k rukám právního zástupce žalobkyně, a to ve lhůtě 3 dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "verdictText": "I. Žalovaná je povinna zaplatit žalobkyni částku ve výši 9 060,54 Kč s kapitalizovaným úrokem ve výši 281,88 Kč s kapitalizovaným úrokem ve výši 1 296,94 Kč s úrokem ve výši 9,90 % ročně z částky 9 060,54 Kč od [datum] do zaplacení, se zákonným úrokem z prodlení ve výši 10,00 % ročně z částky 9 060,54 Kč od [datum] do zaplacení, a to ve lhůtě 3 dnů od právní moci rozsudku.\nII. Žalovaná je povinna zaplatit žalobkyni náhradu nákladů řízení ve výši 1 489 Kč k rukám právního zástupce žalobkyně, a to ve lhůtě 3 dnů od právní moci rozsudku.",
+  "justification": [
+    {
+      "texts": [
+        {
+          "text": "1. Žalobkyně se návrhem na vydání elektronického platebního rozkazu domáhala na žalované zaplacení částky 9 060,54 Kč s příslušenstvím s odůvodněním, že s žalovanou uzavřela dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " smlouvu o hotovostním úvěru„ mPůjčka plus“ č. ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "anonymizováno",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", na jejímž základě poskytla žalované úvěr ve výši 15 000 Kč a žalovaná se zavázala poskytnuté peněžní prostředky žalobkyni vrátit v 60 měsíčních splátkách po 1 317,97 Kč. Součástí každé splátky byla úhrada sjednaných poplatků a úroku z úvěru ve výši 9,9 % ročně. Nedílnou součástí smlouvy byly podmínky poskytování hotovostních úvěrů v ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "anonymizováno",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", všeobecné obchodní podmínky pro zakládání a vedení účtů fyzických osob a sazebník bankovních poplatků mBank. Žalovaná se ocitla v prodlení s úhradou splátek za měsíce srpen, září, říjen 2019, pročež žalobkyně dopisem ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ke dni ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od smlouvy o úvěru odstoupila a dluh žalované ze smlouvy se stal zcela splatným. Žalovaná zůstala žalobkyni dlužna na jistině částku 8 910,54 Kč, na poplatcích částku 150 Kč, úrok z úvěru kapitalizovaný ke dni zesplatnění ve výši 281,88 Kč, zákonný úrok z prodlení kapitalizovaný ke dni ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši 1 296,94 Kč a sjednaný úrok a zákonný úrok z prodlení z dlužné částky 9 060,54 Kč od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení. Před podáním žaloby byla žalovaná vyzvána k zaplacení žalované částky.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "2. Žalovaná se k žalobě nevyjádřila.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "3. Dle § 115a občanského soudního řádu (dále jen o.s.ř.) soud k projednání věci samé nenařídil jednání, rozhodoval na základě obsahu spisu účastníků v této věci a v řízení provedených listinných důkazů.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "4. Z žalobkyní předložených listinných důkazů, a to smlouvy o hotovostním úvěru„ ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "anonymizována dvě slova",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "“ č. ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "anonymizováno",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "bankovní účet",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", SMS potvrzení, transakční historie za období od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a za období od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", historie úvěru, poslední výzvy k uhrazení dlužné částky/odstoupení od smlouvy ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " včetně dodejky od žalované a předžalobní upomínky ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " má soud za prokázané, že žalobkyně uzavřela s žalovanou dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " za pomoci prostředků komunikace na dálku smlouvu o úvěru, kterou se žalobkyně zavázala poskytnout žalované úvěr ve výši 15 000 Kč a žalovaná se zavázala úvěr splatit a zaplatit úroky a další příslušenství úvěru, a to v 60 měsíčních splátkách po 317,97 Kč splatných každého 17. dne v měsíci. Sazba úroku z úvěru byla sjednána ve výši 9,9 % ročně. Z článku 7.2 smlouvy soud ověřil oprávnění žalobkyně v případě prodlení žalované s úhradou splátek úvěr zesplatnit. Žalobkyně žalované dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " poskytla částku 15 000 Kč, a to na její mkonto č. ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "bankovní účet",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalovaná naposledy uhradila splátku dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", dále již neuhradila ničeho. Z důvodu prodlení žalované s úhradou více než dvou splátek ji žalobkyně dopisem ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " vyzvala k zaplacení dlužných splátek včetně poplatku za odeslání upomínky ve výši 150 Kč s tím, že pokud dlužné splátky nevyrovná ve lhůtě sedmi dnů od doručení výzvy, následujícím dnem dojde k zániku smlouvy a tím i k zesplatnění úvěru. Žalovaná ani poté neuhradila ničeho a dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " došlo k zesplatnění úvěru. Dlužná jistina k tomuto datu činila 8 910,54 Kč, dlužné poplatky 150 Kč a úrok z úvěru 281,88 Kč. K zaplacení dlužné částky byla žalovaná před podáním žaloby vyzvána upomínkou právního zástupce žalobkyně ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "5. Na základě provedeného dokazování byl zjištěn skutkový stav, jak výše uvedeno, tedy že účastníci uzavřeli dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " smlouvu o úvěru, na jejímž základě žalobkyně poskytla žalované peněžní prostředky ve sjednané výši a žalovaná se zavázala peněžní prostředky vrátit a zaplatit žalobkyni úrok z úvěru ve sjednaných splátkách včetně sjednaných poplatků. Svému závazku žalovaná nedostála, po odstoupení žalobkyně od smlouvy a zesplatnění peněžních závazků nadále dluží žalobkyni žalovanou částku 9 060,54 Kč včetně příslušenství – sjednaného úroku z úvěru a zákonného úroku z prodlení.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "6. Podle § 2395 zákona č. 89/2012 Sb., občanského zákoníku (dále jen o. z.), se smlouvou o úvěru úvěrující zavazuje, že úvěrovanému poskytne na jeho požádání a v jeho prospěch peněžní prostředky do určité částky, a úvěrovaný se zavazuje poskytnuté peněžní prostředky vrátit a zaplatit úroky.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "7. Podle § 2399 odst. 1 o. z. úvěrovaný vrátí úvěrujícímu poskytnuté peněžní prostředky v dohodnuté době, jinak do měsíce ode dne, kdy byl o vrácení požádán.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "8. S ohledem na výše uvedené, kdy žalobkyně prokázala právní důvod i výši žalované částky a zcela po právu tak nárokovala svou pohledávku za žalovanou, soud žalobě v plném rozsahu vyhověl. Výše žalované částky nebyla v řízení nijak rozporována. Žalobkyni náleží též úhrada sjednaného úroku z úvěru z dlužné jistiny a poplatku a s ohledem na prodlení žalovaného s peněžitým plněním úhrada úroků z prodlení z dlužné jistiny a poplatku dle § 1970 o. z., přičemž jeho výše vyplývá z vládního nařízení č. 351/2013 Sb. ve znění platném a účinném ke dni prodlení žalované.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "9. Ve věci zcela úspěšné žalobkyni soud přiznal právo na náhradu nákladů řízení (§ 142 odst. 1 o.s.ř.) Náklady řízení žalobkyně se sestávají ze soudního poplatku 400 Kč, z paušální odměny za zastupování advokátem dle § 14b odst. 1 bod 1 vyhl.č. 177/1996 Sb. ve výši 3 x 200 Kč, ze 3 režijních paušálů dle § 14b odst. 5 písm. a) vyhl.č. 177/1996 Sb. po 100 Kč a 21 % DPH z odměny a náhrad ve výši 189 Kč. Aplikace § 14 b vyhl. č. 177/1996 Sb. je v daném případě zcela namístě, neboť řízení bylo zahájeno návrhem podaným na ustáleném vzoru uplatňovaném opakovaně touž žalobkyní ve skutkově i právně obdobných věcech, předmět řízení nepřevyšuje částku 50 000 Kč a žalobkyni byla přiznána náhrada nákladů řízení. Advokát žalobkyně používá základ obecného textu, kterému částečně přiřazuje konkrétní údaje týkající se žalovaných a vzniku a výše jejich dluhu. Žalovaná je povinna zaplatit žalobkyni náhradu nákladů řízení k rukám zástupce žalobkyně, který je advokátem (§ 149 odst. 1 o.s.ř.).",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "10. Žalovaná je povinna zaplatit žalobkyni přiznanou částku včetně příslušenství a náhrady nákladů řízení do 3 dnů od právní moci tohoto rozsudku (§ 160 odst. 1 o.s.ř.).",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "justificationText": "1. Žalobkyně se návrhem na vydání elektronického platebního rozkazu domáhala na žalované zaplacení částky 9 060,54 Kč s příslušenstvím s odůvodněním, že s žalovanou uzavřela dne [datum] smlouvu o hotovostním úvěru„ mPůjčka plus“ č. [anonymizováno], na jejímž základě poskytla žalované úvěr ve výši 15 000 Kč a žalovaná se zavázala poskytnuté peněžní prostředky žalobkyni vrátit v 60 měsíčních splátkách po 1 317,97 Kč. Součástí každé splátky byla úhrada sjednaných poplatků a úroku z úvěru ve výši 9,9 % ročně. Nedílnou součástí smlouvy byly podmínky poskytování hotovostních úvěrů v [anonymizováno], všeobecné obchodní podmínky pro zakládání a vedení účtů fyzických osob a sazebník bankovních poplatků mBank. Žalovaná se ocitla v prodlení s úhradou splátek za měsíce srpen, září, říjen 2019, pročež žalobkyně dopisem ze dne [datum] ke dni [datum] od smlouvy o úvěru odstoupila a dluh žalované ze smlouvy se stal zcela splatným. Žalovaná zůstala žalobkyni dlužna na jistině částku 8 910,54 Kč, na poplatcích částku 150 Kč, úrok z úvěru kapitalizovaný ke dni zesplatnění ve výši 281,88 Kč, zákonný úrok z prodlení kapitalizovaný ke dni [datum] ve výši 1 296,94 Kč a sjednaný úrok a zákonný úrok z prodlení z dlužné částky 9 060,54 Kč od [datum] do zaplacení. Před podáním žaloby byla žalovaná vyzvána k zaplacení žalované částky.\n2. Žalovaná se k žalobě nevyjádřila.\n3. Dle § 115a občanského soudního řádu (dále jen o.s.ř.) soud k projednání věci samé nenařídil jednání, rozhodoval na základě obsahu spisu účastníků v této věci a v řízení provedených listinných důkazů.\n4. Z žalobkyní předložených listinných důkazů, a to smlouvy o hotovostním úvěru„ [anonymizována dvě slova]“ č. [anonymizováno] [bankovní účet] ze dne [datum], SMS potvrzení, transakční historie za období od [datum] do [datum] a za období od [datum] do [datum], historie úvěru, poslední výzvy k uhrazení dlužné částky/odstoupení od smlouvy ze dne [datum] včetně dodejky od žalované a předžalobní upomínky ze dne [datum] má soud za prokázané, že žalobkyně uzavřela s žalovanou dne [datum] za pomoci prostředků komunikace na dálku smlouvu o úvěru, kterou se žalobkyně zavázala poskytnout žalované úvěr ve výši 15 000 Kč a žalovaná se zavázala úvěr splatit a zaplatit úroky a další příslušenství úvěru, a to v 60 měsíčních splátkách po 317,97 Kč splatných každého 17. dne v měsíci. Sazba úroku z úvěru byla sjednána ve výši 9,9 % ročně. Z článku 7.2 smlouvy soud ověřil oprávnění žalobkyně v případě prodlení žalované s úhradou splátek úvěr zesplatnit. Žalobkyně žalované dne [datum] poskytla částku 15 000 Kč, a to na její mkonto č. [bankovní účet]. Žalovaná naposledy uhradila splátku dne [datum], dále již neuhradila ničeho. Z důvodu prodlení žalované s úhradou více než dvou splátek ji žalobkyně dopisem ze dne [datum] vyzvala k zaplacení dlužných splátek včetně poplatku za odeslání upomínky ve výši 150 Kč s tím, že pokud dlužné splátky nevyrovná ve lhůtě sedmi dnů od doručení výzvy, následujícím dnem dojde k zániku smlouvy a tím i k zesplatnění úvěru. Žalovaná ani poté neuhradila ničeho a dne [datum] došlo k zesplatnění úvěru. Dlužná jistina k tomuto datu činila 8 910,54 Kč, dlužné poplatky 150 Kč a úrok z úvěru 281,88 Kč. K zaplacení dlužné částky byla žalovaná před podáním žaloby vyzvána upomínkou právního zástupce žalobkyně ze dne [datum].\n5. Na základě provedeného dokazování byl zjištěn skutkový stav, jak výše uvedeno, tedy že účastníci uzavřeli dne [datum] smlouvu o úvěru, na jejímž základě žalobkyně poskytla žalované peněžní prostředky ve sjednané výši a žalovaná se zavázala peněžní prostředky vrátit a zaplatit žalobkyni úrok z úvěru ve sjednaných splátkách včetně sjednaných poplatků. Svému závazku žalovaná nedostála, po odstoupení žalobkyně od smlouvy a zesplatnění peněžních závazků nadále dluží žalobkyni žalovanou částku 9 060,54 Kč včetně příslušenství – sjednaného úroku z úvěru a zákonného úroku z prodlení.\n6. Podle § 2395 zákona č. 89/2012 Sb., občanského zákoníku (dále jen o. z.), se smlouvou o úvěru úvěrující zavazuje, že úvěrovanému poskytne na jeho požádání a v jeho prospěch peněžní prostředky do určité částky, a úvěrovaný se zavazuje poskytnuté peněžní prostředky vrátit a zaplatit úroky.\n7. Podle § 2399 odst. 1 o. z. úvěrovaný vrátí úvěrujícímu poskytnuté peněžní prostředky v dohodnuté době, jinak do měsíce ode dne, kdy byl o vrácení požádán.\n8. S ohledem na výše uvedené, kdy žalobkyně prokázala právní důvod i výši žalované částky a zcela po právu tak nárokovala svou pohledávku za žalovanou, soud žalobě v plném rozsahu vyhověl. Výše žalované částky nebyla v řízení nijak rozporována. Žalobkyni náleží též úhrada sjednaného úroku z úvěru z dlužné jistiny a poplatku a s ohledem na prodlení žalovaného s peněžitým plněním úhrada úroků z prodlení z dlužné jistiny a poplatku dle § 1970 o. z., přičemž jeho výše vyplývá z vládního nařízení č. 351/2013 Sb. ve znění platném a účinném ke dni prodlení žalované.\n9. Ve věci zcela úspěšné žalobkyni soud přiznal právo na náhradu nákladů řízení (§ 142 odst. 1 o.s.ř.) Náklady řízení žalobkyně se sestávají ze soudního poplatku 400 Kč, z paušální odměny za zastupování advokátem dle § 14b odst. 1 bod 1 vyhl.č. 177/1996 Sb. ve výši 3 x 200 Kč, ze 3 režijních paušálů dle § 14b odst. 5 písm. a) vyhl.č. 177/1996 Sb. po 100 Kč a 21 % DPH z odměny a náhrad ve výši 189 Kč. Aplikace § 14 b vyhl. č. 177/1996 Sb. je v daném případě zcela namístě, neboť řízení bylo zahájeno návrhem podaným na ustáleném vzoru uplatňovaném opakovaně touž žalobkyní ve skutkově i právně obdobných věcech, předmět řízení nepřevyšuje částku 50 000 Kč a žalobkyni byla přiznána náhrada nákladů řízení. Advokát žalobkyně používá základ obecného textu, kterému částečně přiřazuje konkrétní údaje týkající se žalovaných a vzniku a výše jejich dluhu. Žalovaná je povinna zaplatit žalobkyni náhradu nákladů řízení k rukám zástupce žalobkyně, který je advokátem (§ 149 odst. 1 o.s.ř.).\n10. Žalovaná je povinna zaplatit žalobkyni přiznanou částku včetně příslušenství a náhrady nákladů řízení do 3 dnů od právní moci tohoto rozsudku (§ 160 odst. 1 o.s.ř.).",
+  "information": [
+    {
+      "texts": [
+        {
+          "text": "Proti tomuto rozsudku není odvolání přípustné (ustanovení § 202 odst. 2 o. s. ř.).",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "Nesplní-li žalovaná povinnosti uložené jí tímto rozsudkem v uvedených lhůtách, může se žalobkyně domáhat po jeho právní moci výkonu rozhodnutí u soudu.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "metadata": {
+    "type": "JUDGEMENT",
+    "ecli": "ECLI:CZ:OSMB:2021:20.C.298.2021.1",
+    "publishedAt": "2022-01-03",
+    "decisionAt": "2021-11-23",
+    "caseNumber": {
+      "senate": 20,
+      "registry": "C",
+      "index": 298,
+      "year": 2021,
+      "pageNumber": 34
+    },
+    "solver": {
+      "titlesBefore": "JUDr.",
+      "firstName": "Petra",
+      "lastName": "Svobodová",
+      "titlesAfter": "",
+      "function": ""
+    },
+    "courtCode": "OSMB",
+    "caseResultType": [
+      "VYHOVENI"
+    ],
+    "caseSubject": "o zaplacení 9 060,54 Kč s příslušenstvím",
+    "specialType": [],
+    "affectedDocs": [],
+    "regulations": [
+      {
+        "paragraphNumber": "142",
+        "lexNumber": 99,
+        "lexYear": 1963,
+        "lexType": "PREDPIS_ZAKON"
+      },
+      {
+        "paragraphNumber": "2395",
+        "lexNumber": 89,
+        "lexYear": 2012,
+        "lexType": "PREDPIS_ZAKON"
+      },
+      {
+        "paragraphNumber": "1970",
+        "lexNumber": 351,
+        "lexYear": 2013,
+        "lexType": "PREDPIS_NARIZENI_VLADY"
+      },
+      {
+        "paragraphNumber": "2399",
+        "lexNumber": 89,
+        "lexYear": 2012,
+        "lexType": "PREDPIS_ZAKON"
+      }
+    ],
+    "flags": [
+      "PENEZITE_PLNENI",
+      "SMLOUVA_O_UVERU"
+    ]
+  },
+  "styles": [
+    {
+      "localId": 0,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": false,
+      "italic": false
+    },
+    {
+      "localId": 1,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": true,
+      "italic": false
+    }
+  ]
+}

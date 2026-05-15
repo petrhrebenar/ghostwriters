@@ -1,0 +1,1218 @@
+{
+  "uuid": "4c83a777-c543-448e-949f-e0093fad9229",
+  "header": [
+    {
+      "texts": [
+        {
+          "text": "Okresní soud Plzeň – sever rozhodl samosoudkyní Mgr. Jarmilou Millerovou v právní věci",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalobce: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalobce",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " zastoupený advokátem ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "údaje o zástupci",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "proti",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalovanému: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalovaného",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "o zaplacení částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s příslušenstvím",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "verdict": [
+    {
+      "texts": [
+        {
+          "text": "I. Žalovaný je povinen žalobci zaplatit částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s úrokem z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 10 % p. a., a to ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "II. Žaloba se zamítá co do:",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s úrokem z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 10 % p. a.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) smluvního úroku z prodlení ve výši 0,1 % denně z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "III. Žalobce je povinen doplatit České republice na účet Okresního soudu Plzeň – sever soudní poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "IV. Žádný z účastníků nemá právo na náhradu nákladů řízení.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    }
+  ],
+  "verdictText": "<b>I. Žalovaný je povinen žalobci zaplatit částku [částka] s úrokem z prodlení z částky [částka] od [datum] do zaplacení ve výši 10 % p. a., a to ve lhůtě do tří dnů od právní moci rozsudku.</b>\n<b>II. Žaloba se zamítá co do:</b>\n<b>-) částky [částka] s úrokem z prodlení z částky [částka] od [datum] do zaplacení ve výši 10 % p. a.</b>\n<b>-) smluvního úroku z prodlení ve výši 0,1 % denně z částky [částka] od [datum] do zaplacení</b>\n<b>III. Žalobce je povinen doplatit České republice na účet Okresního soudu Plzeň – sever soudní poplatek ve výši [částka], a to ve lhůtě do tří dnů od právní moci rozsudku.</b>\n<b>IV. Žádný z účastníků nemá právo na náhradu nákladů řízení.</b>",
+  "justification": [
+    {
+      "texts": [
+        {
+          "text": "1. Žalobou podanou Okresnímu soudu Plzeň – sever dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " se žalobce domáhal zaplacení částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " se zákonným úrokem z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 10 % a se smluvním úrokem z prodlení ve výši 0,1 % denně z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "2. Žalobce žalobu odůvodnil tím, že dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " byla mezi žalobcem jako věřitelem na straně jedné a žalovaným jako dlužníkem na straně druhé uzavřena smlouva o poskytnutí spotřebitelského úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " kterou se žalobce zavázal poskytnout žalovanému úvěr ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Úvěr byl ve prospěch žalovaného vyplacen v souladu s ujednáním smluvních stran v čl. IV. odst. 4.3 smlouvy. Smlouva byla uzavřena elektronicky. Úvěr byl sjednán na dobu určitou v délce 72 měsíců, přičemž celková částka splatná žalovaným byla dohodnuta ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " jistina, ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " sjednané úroky) a měla být žalovaným žalobci uhrazena v 72 splátkách ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " měsíčně vždy k 15. dni každého kalendářního měsíce. Zápůjční úroková sazba činí 23 % p. a., RPSN 38,64 % p. a. Smluvní strany si sjednaly doplňkové služby, které byly věřitelem - žalobcem poskytnuty na výslovnou žádost žalovaného, a to konkrétně: doplňkovou inkasní službu, doplňkovou službu„ podpora“. Žalovaný však nedodržel splátkový kalendář, dostal se do prodlení se splátkou, jež byla splatná dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Nezaplatil splátku v celkové výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", když do této výše byla zahrnuta splátka úvěru a splátka za výkon inkasní služby ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " měsíčně, která je splatná společně s měsíční splátkou spotřebitelského úvěru a splátka za výkon doplňkové služby„ podpora“ v celkové výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " měsíčně, která je splatná společně s měsíční splátkou spotřebitelského úvěru. Na základě tohoto porušení smluvních povinností žalovaným zaslal žalobce žalovanému 1. písemnou upomínku ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", kde vyzval žalovaného k úhradě dlužné splátky. Zároveň ho vyzval k úhradě smluvními stranami dohodnuté sankce za zaslání upomínky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalovaný však vůči žalobci své splatné závazky neuhradil. Žalobce zaslal žalovanému 2. písemnou upomínku ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", kde ho vyzval k úhradě dlužné splátky, k úhradě sankce za zaslání upomínky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a zároveň ho vyzval k úhradě smluvními stranami dohodnuté sankce za zaslání upomínky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". V této upomínce žalobce žalovaného upozornil, že pokud nevyrovná své splatné závazky vůči žalobci, tak dojde k zesplatnění celého úvěru a k uplatnění dohodnuté smluvní pokuty. I přes zaslání několika písemných upomínek ze strany žalobce nebyla řádně uhrazena pravidelná měsíční splátka spotřebitelského úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " splatná dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". V poslední upomínce byl žalovaný upozorněn na skutečnost, že při nezaplacení celé dlužné částky může dojít k zesplatnění jistiny úvěru a naúčtování veškerých sankcí a nároků vyplývajících ze smlouvy o úvěru a souběžně uzavřené smlouvy o inkasní službě. Na toto nebylo reagováno zaplacením. Žalobci tak nezbývalo nic jiného, než přistoupit k zesplatnění úvěru a vyzvat žalovaného k úhradě dlužné částky, která byla vyčíslena ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a sestává se z následujících položek: zbylá část jistiny ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", zbylá část úroků ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", zbylá část inkasní služby ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (72 splátek po ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "), zbylá část doplňkové služby„ podpora“ – odklad ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (72 splátek po ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "), nemoc ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (72 splátek po ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "), práce ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (72 splátek po ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "), náklady na upomínkování ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (náklady za upomínku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", náklady za upomínku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "), smluvní pokuta za prodlení úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", smluvní úroky za prodlení inkasní služby ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", smluvní pokuta ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "3. Žalovaný se k žalobě nevyjádřil, k nařízenému ústnímu jednání se nedostavil.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "4. Podle § 2 odst. 1 občanského zákoníku, každé ustanovení soukromého práva lze vykládat jenom ve shodě s Listinou základních práv a svobod a ústavním pořádkem vůbec, se zásadami, na nichž spočívá tento zákon, jakož i s trvalým zřetelem k hodnotám, které se tím chrání. Rozejde-li se výklad jednotlivého ustanovení pouze podle jeho slov s tímto příkazem, musí mu ustoupit.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "5. Podle § 2 odst. 3. občanského zákoníku, výklad a použití právního předpisu, nesmí být v rozporu s dobrými mravy a nesmí vést ke krutosti nebo bezohlednosti urážející obyčejné lidské cítění.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "6. Podle § 580 Občanského zákoníku neplatné je právní jednání, které se příčí dobrým mravům, jakože právní jednání, které odporuje zákonu, pokud to smysl a účel zákona vyžaduje.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "7. Podle nálezu Ústavního soudu IV. US ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " výkonu práva, který je jeho zneužitím, soudy nemohou poskytnout ochranu, neboť by to bylo v rozporu nejen s ustanovením Občanského zákoníku, ale především článku 36 Listiny.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "8. Z důkazu Smlouva o poskytnutí spotřebitelského úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bylo zjištěno, že strany smlouvu uzavřely ve smyslu ust. § 2395 občanského zákoníku a násl. a dle zák. č. 257/2016 Sb. o spotřebitelském úvěru. Na základě uzavřené smlouvy se žalobce jako věřitel zavázal žalovanému poskytnout úvěr ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to tak, že částka ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bude vyplacena ve prospěch spotřebitele věřiteli na jiný závazek vyplývající ze smlouvy ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " částka ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bude vyplacena na účet spotřebitele, částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bude započtena na náklady poskytovatele s tím, že žalovaný se zavázal úvěr splácet v délce 72 měsíců s tím, že výše každé splátky bude činit ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". V příloze ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ke smlouvě byla stanovena tabulka umoření. Z tabulky však vyplývá, že celková výše splátky je ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", celkem se mělo jednat o 72 měsíčních splátek po ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", když celková splátka se měla sestávat ze splátky jistiny, splátky úroku, splátky inkasní služby, splátky služby„ podpora“. Nemůže tak odpovídat informace žalobce o tom, že RPSN smlouvy činí 38,64 % p. a. Dále soud zjistil, že žalobce a žalovaný dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " uzavřeli smlouvu o poskytnutí spotřebitelského úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Na základě uzavřené smlouvy se žalobce zavázal žalovanému poskytnout úvěr ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to tak, že částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bude vyplacena na účet spotřebitele, částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " bude započtena na náklady poskytovatele, přičemž žalovaný se zavázal úvěr uhradit v 72 měsíčních splátkách. Z přílohy ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " – tabulka umoření, vyplynulo, že celková výše splátky bude činit ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a bude se sestávat z jistiny úvěru, úroku, poplatku za inkasní služby, poplatku za službu„ podpora“. Jak již soud výše uvedl, účastníci uzavřeli smlouvu nejen dle ust. § 2395 občanského zákoníku a násl., ale i dle zákona o spotřebitelském úvěru zák. ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " Sb. Úprava spotřebitelské smlouvy dle zák. č. 257/2016 Sb. sleduje v prvé řadě ochranu spotřebitele jako slabší strany před obratností obchodníků. Vychází se z toho, že spotřebitel z důvodu své nezkušenosti, neznalosti, není schopen konkurovat obratností vyškoleným zkušeným profesionálům znalých technik moderního obchodu. Stávající model společnosti všudypřítomné spotřeby vede k předlužení spotřebitelů, jejich domácnosti, což má negativní dopad na fungování celé společnosti. Zakázány jsou především nekalé obchodní praktiky, jako klamání spotřebitele v oblasti poskytování spotřebitelských úvěrů. Je tak zdůrazněna povinnost poskytovatele posoudit před poskytnutím úvěru úvěruschopnost spotřebitele na základě informací umožňujících učinit si o této okolnosti spolehlivý úsudek (§ 86 zákona o spotřebitelském úvěru). V projednávané věci nelze přehlédnout okolnost, která je natolik zásadní, v rozporu s principem ochrany spotřebitele coby slabší strany, a to tak, že činí uvedenou smlouvu ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " i smlouvu ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " za absolutně neplatnou. Z úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " si žalobce ponechal rovnou ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " jako poplatek za náklady spojené s vyřízením úvěru. Pokud jde o smlouvu ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " žalobce si ponechal poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", přičemž částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " započetl na dluh žalovaného dle smlouvy ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Je tak nutno uvést, že během krátkého období, od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", žalobce žalovanému ve skutečnosti poskytl pouze plnění ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ") a ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "). Žalovaný tak od žalobce obdržel pouze ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", zavázal se však žalobci uhradit částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " + ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " = ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Z uvedeného je zřejmé nepravdivost tvrzení žalobce o výši RPSN 38,64 % ročně. Žalobce coby nebankovní poskytovatel spotřebitelského úvěru především užil nekalou obchodní praktiku spočívající v klamání spotřebitele ohledně výše RPSN na spotřebitelský úvěr, když nebyly do výpočtu RPSN v rozporu s ust. § 133 odst. 2 zákona o spotřebitelském úvěru zahrnuty náklady na doplňkovou službu, tzv. inkasní službu a službu tzv.„ podpora“. Navíc není zcela zřejmé, zda částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", která byla použita na předchozí závazek, byla provedena na základě platného ujednání, když nebylo doloženo, že by žalovaný dal písemný pokyn žalobci k poskytnutí této částky na úhradu předchozího závazku, když nebylo prokázáno, že by žalovaný měl ověřený elektronický podpis. Nicméně žalovaný se k nařízenému ústnímu jednání nedostavil, nenamítal neplatnost ujednání ohledně povinnosti uhradit předchozí dluh ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Poznatky o klamání žalovaného coby spotřebitele, ze strany žalobce coby poskytovatele spotřebitelského úvěru, vedou k závěru, že žalobce svým počínáním při uzavírání obou úvěrových smluv nepostupoval s odbornou péčí ve smyslu ust. § 75 zákona o spotřebitelském úvěru, nejednal čestně, transparentně, nezohledňoval práva a zájmy žalovaného ve smyslu § 76 odst. 1 zákona o spotřebitelském úvěru, neboť při komunikaci s ním, včetně propagačního sdělení, použil nepravdivé, zavádějící a klamavé informace, a to zejména ve vztahu k nákladům spotřebitelského úvěru. Nečestnost jednání žalobce je běžnou praxí. Žalobce sjednal s konkrétním spotřebitelem nejprve spotřebitelský úvěr na nižší částku, krátce potom, v řádu několika dnů nabídl spotřebiteli nový úvěr, znějící na částku vyšší, za podmínek popsaných v této úvěrové smlouvě. Žalobce při uzavírání úvěrové smlouvy byl v přímém rozporu se zákonem, od počátku směřoval k vytvoření situace, kdy v průběhu několika málo dnů poskytne žalovanému peněžní prostředky ve skutečnosti pouze na základě obou úvěrových smluv ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s tím, že bude inkasovat ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Tento stav se příčí dobrým mravům, na obě smlouvy tak soud pohlížel jako na absolutně neplatné dle ust. § 588 občanského zákoníku. Tento závěr podporuje potřeba prevence naplněná jedině neplatností celé smlouvy (viz např. rozhodnutí Soudního dvora EU ve věci C ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "). Soud tak považoval uzavřenou smlouvu za absolutně neplatnou jako celek. Soud proto provedl vypořádání ve smyslu ust. § 2991 občanského zákoníku z titulu bezdůvodného obohacení a uložil žalovanému zaplatit žalobci částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalobě bylo dále z části vyhověno, pokud žalobce považoval zákonný úrok z prodlení ve výši 10 % p. a. z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", přičemž počátek prodlení mohl být stanoven v návaznosti na upomínku k zaplacení dlužné částky. Upomínka byla předána poštovnímu úřadu k přepravě dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalobce požadoval zákonný úrok z prodlení až od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Ve zbývající výši byla žaloba jako nedůvodná zamítnuta.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "9. O povinnosti žalobce doplatit soudní poplatek soud rozhodl na základě zákona o soudních poplatcích zák. č. 549/1991 Sb., sazebník poplatků, poplatky za řízení, položka 1 bod 1 písm. b) za návrh na zahájení občanského soudního řízení, jehož předmětem je peněžité plnění v částce vyšší než ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", činí soudní poplatek 5 % z této částky. Dle položky 2 bod 1 písm. c) za návrh na vydání elektronického platebního rozkazu, jehož předmětem je peněžité plnění v částce vyšší než ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", činí soudní poplatek 4 % z této částky. Dle položky 2 bod 2, pokud soud platební rozkaz nevydá a pokračuje v řízení, doměří navrhovateli poplatek do výše položky 1.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "10. Soud platební rozkaz nevydal, žalobci tak doměřil soudní poplatek dle výše položky 1. Žalobce uhradil ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " Soudní poplatek dle položky 1 činí ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalobce je tak povinen doplatit soudní poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "11. O nákladech řízení soud rozhodoval dle ust. § 142 odst. 2 o.s.ř., měl-li účastník ve věci úspěch jen částečný, soud náhradu nákladů poměrně rozdělí, popřípadě vysloví, že žádný z účastníků nemá na náhradu nákladů právo. Žalobce byl ve věci převážně neúspěšný, žalovanému žádné náklady řízení nevznikly. Soud tak rozhodl, že žádný z účastníků nemá právo na náhradu nákladů řízení.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "justificationText": "1. Žalobou podanou Okresnímu soudu Plzeň – sever dne [datum] se žalobce domáhal zaplacení částky [částka] se zákonným úrokem z prodlení z částky [částka] od [datum] do zaplacení ve výši 10 % a se smluvním úrokem z prodlení ve výši 0,1 % denně z částky [částka] od [datum] do zaplacení.\n2. Žalobce žalobu odůvodnil tím, že dne [datum] byla mezi žalobcem jako věřitelem na straně jedné a žalovaným jako dlužníkem na straně druhé uzavřena smlouva o poskytnutí spotřebitelského úvěru [číslo] kterou se žalobce zavázal poskytnout žalovanému úvěr ve výši [částka]. Úvěr byl ve prospěch žalovaného vyplacen v souladu s ujednáním smluvních stran v čl. IV. odst. 4.3 smlouvy. Smlouva byla uzavřena elektronicky. Úvěr byl sjednán na dobu určitou v délce 72 měsíců, přičemž celková částka splatná žalovaným byla dohodnuta ve výši [částka] ([částka] jistina, [částka] sjednané úroky) a měla být žalovaným žalobci uhrazena v 72 splátkách ve výši [částka] měsíčně vždy k 15. dni každého kalendářního měsíce. Zápůjční úroková sazba činí 23 % p. a., RPSN 38,64 % p. a. Smluvní strany si sjednaly doplňkové služby, které byly věřitelem - žalobcem poskytnuty na výslovnou žádost žalovaného, a to konkrétně: doplňkovou inkasní službu, doplňkovou službu„ podpora“. Žalovaný však nedodržel splátkový kalendář, dostal se do prodlení se splátkou, jež byla splatná dne [datum]. Nezaplatil splátku v celkové výši [částka], když do této výše byla zahrnuta splátka úvěru a splátka za výkon inkasní služby ve výši [částka] měsíčně, která je splatná společně s měsíční splátkou spotřebitelského úvěru a splátka za výkon doplňkové služby„ podpora“ v celkové výši [částka] měsíčně, která je splatná společně s měsíční splátkou spotřebitelského úvěru. Na základě tohoto porušení smluvních povinností žalovaným zaslal žalobce žalovanému 1. písemnou upomínku ze dne [datum], kde vyzval žalovaného k úhradě dlužné splátky. Zároveň ho vyzval k úhradě smluvními stranami dohodnuté sankce za zaslání upomínky [číslo] ve výši [částka]. Žalovaný však vůči žalobci své splatné závazky neuhradil. Žalobce zaslal žalovanému 2. písemnou upomínku ze dne [datum], kde ho vyzval k úhradě dlužné splátky, k úhradě sankce za zaslání upomínky [číslo] ve výši [částka] a zároveň ho vyzval k úhradě smluvními stranami dohodnuté sankce za zaslání upomínky [číslo] ve výši [částka]. V této upomínce žalobce žalovaného upozornil, že pokud nevyrovná své splatné závazky vůči žalobci, tak dojde k zesplatnění celého úvěru a k uplatnění dohodnuté smluvní pokuty. I přes zaslání několika písemných upomínek ze strany žalobce nebyla řádně uhrazena pravidelná měsíční splátka spotřebitelského úvěru [číslo] splatná dne [datum]. V poslední upomínce byl žalovaný upozorněn na skutečnost, že při nezaplacení celé dlužné částky může dojít k zesplatnění jistiny úvěru a naúčtování veškerých sankcí a nároků vyplývajících ze smlouvy o úvěru a souběžně uzavřené smlouvy o inkasní službě. Na toto nebylo reagováno zaplacením. Žalobci tak nezbývalo nic jiného, než přistoupit k zesplatnění úvěru a vyzvat žalovaného k úhradě dlužné částky, která byla vyčíslena ve výši [částka] a sestává se z následujících položek: zbylá část jistiny [částka], zbylá část úroků [částka], zbylá část inkasní služby [částka] (72 splátek po [částka]), zbylá část doplňkové služby„ podpora“ – odklad [částka] (72 splátek po [částka]), nemoc [částka] (72 splátek po [částka]), práce [částka] (72 splátek po [částka]), náklady na upomínkování [částka] (náklady za upomínku [číslo] ve výši [částka], náklady za upomínku [číslo] ve výši [částka]), smluvní pokuta za prodlení úvěru [částka], smluvní úroky za prodlení inkasní služby [částka], smluvní pokuta [částka].\n3. Žalovaný se k žalobě nevyjádřil, k nařízenému ústnímu jednání se nedostavil.\n4. Podle § 2 odst. 1 občanského zákoníku, každé ustanovení soukromého práva lze vykládat jenom ve shodě s Listinou základních práv a svobod a ústavním pořádkem vůbec, se zásadami, na nichž spočívá tento zákon, jakož i s trvalým zřetelem k hodnotám, které se tím chrání. Rozejde-li se výklad jednotlivého ustanovení pouze podle jeho slov s tímto příkazem, musí mu ustoupit.\n5. Podle § 2 odst. 3. občanského zákoníku, výklad a použití právního předpisu, nesmí být v rozporu s dobrými mravy a nesmí vést ke krutosti nebo bezohlednosti urážející obyčejné lidské cítění.\n6. Podle § 580 Občanského zákoníku neplatné je právní jednání, které se příčí dobrým mravům, jakože právní jednání, které odporuje zákonu, pokud to smysl a účel zákona vyžaduje.\n7. Podle nálezu Ústavního soudu IV. US [číslo] výkonu práva, který je jeho zneužitím, soudy nemohou poskytnout ochranu, neboť by to bylo v rozporu nejen s ustanovením Občanského zákoníku, ale především článku 36 Listiny.\n8. Z důkazu Smlouva o poskytnutí spotřebitelského úvěru [číslo] ze dne [datum] bylo zjištěno, že strany smlouvu uzavřely ve smyslu ust. § 2395 občanského zákoníku a násl. a dle zák. č. 257/2016 Sb. o spotřebitelském úvěru. Na základě uzavřené smlouvy se žalobce jako věřitel zavázal žalovanému poskytnout úvěr ve výši [částka], a to tak, že částka ve výši [částka] bude vyplacena ve prospěch spotřebitele věřiteli na jiný závazek vyplývající ze smlouvy [číslo] částka ve výši [částka] bude vyplacena na účet spotřebitele, částka [částka] bude započtena na náklady poskytovatele s tím, že žalovaný se zavázal úvěr splácet v délce 72 měsíců s tím, že výše každé splátky bude činit [částka]. V příloze [číslo] ke smlouvě byla stanovena tabulka umoření. Z tabulky však vyplývá, že celková výše splátky je [částka], celkem se mělo jednat o 72 měsíčních splátek po [částka], když celková splátka se měla sestávat ze splátky jistiny, splátky úroku, splátky inkasní služby, splátky služby„ podpora“. Nemůže tak odpovídat informace žalobce o tom, že RPSN smlouvy činí 38,64 % p. a. Dále soud zjistil, že žalobce a žalovaný dne [datum] uzavřeli smlouvu o poskytnutí spotřebitelského úvěru [číslo]. Na základě uzavřené smlouvy se žalobce zavázal žalovanému poskytnout úvěr ve výši [částka], a to tak, že částka [částka] bude vyplacena na účet spotřebitele, částka [částka] bude započtena na náklady poskytovatele, přičemž žalovaný se zavázal úvěr uhradit v 72 měsíčních splátkách. Z přílohy [číslo] – tabulka umoření, vyplynulo, že celková výše splátky bude činit [částka] a bude se sestávat z jistiny úvěru, úroku, poplatku za inkasní služby, poplatku za službu„ podpora“. Jak již soud výše uvedl, účastníci uzavřeli smlouvu nejen dle ust. § 2395 občanského zákoníku a násl., ale i dle zákona o spotřebitelském úvěru zák. [číslo] Sb. Úprava spotřebitelské smlouvy dle zák. č. 257/2016 Sb. sleduje v prvé řadě ochranu spotřebitele jako slabší strany před obratností obchodníků. Vychází se z toho, že spotřebitel z důvodu své nezkušenosti, neznalosti, není schopen konkurovat obratností vyškoleným zkušeným profesionálům znalých technik moderního obchodu. Stávající model společnosti všudypřítomné spotřeby vede k předlužení spotřebitelů, jejich domácnosti, což má negativní dopad na fungování celé společnosti. Zakázány jsou především nekalé obchodní praktiky, jako klamání spotřebitele v oblasti poskytování spotřebitelských úvěrů. Je tak zdůrazněna povinnost poskytovatele posoudit před poskytnutím úvěru úvěruschopnost spotřebitele na základě informací umožňujících učinit si o této okolnosti spolehlivý úsudek (§ 86 zákona o spotřebitelském úvěru). V projednávané věci nelze přehlédnout okolnost, která je natolik zásadní, v rozporu s principem ochrany spotřebitele coby slabší strany, a to tak, že činí uvedenou smlouvu [číslo] ze dne [datum] i smlouvu [číslo] ze dne [datum] za absolutně neplatnou. Z úvěru [číslo] si žalobce ponechal rovnou [částka] jako poplatek za náklady spojené s vyřízením úvěru. Pokud jde o smlouvu [číslo] žalobce si ponechal poplatek ve výši [částka], přičemž částku [částka] započetl na dluh žalovaného dle smlouvy [číslo]. Je tak nutno uvést, že během krátkého období, od [datum] do [datum], žalobce žalovanému ve skutečnosti poskytl pouze plnění ve výši [částka] ([datum]) a [částka] ([datum]). Žalovaný tak od žalobce obdržel pouze [částka], zavázal se však žalobci uhradit částky [částka] + [částka] = [částka]. Z uvedeného je zřejmé nepravdivost tvrzení žalobce o výši RPSN 38,64 % ročně. Žalobce coby nebankovní poskytovatel spotřebitelského úvěru především užil nekalou obchodní praktiku spočívající v klamání spotřebitele ohledně výše RPSN na spotřebitelský úvěr, když nebyly do výpočtu RPSN v rozporu s ust. § 133 odst. 2 zákona o spotřebitelském úvěru zahrnuty náklady na doplňkovou službu, tzv. inkasní službu a službu tzv.„ podpora“. Navíc není zcela zřejmé, zda částka [částka], která byla použita na předchozí závazek, byla provedena na základě platného ujednání, když nebylo doloženo, že by žalovaný dal písemný pokyn žalobci k poskytnutí této částky na úhradu předchozího závazku, když nebylo prokázáno, že by žalovaný měl ověřený elektronický podpis. Nicméně žalovaný se k nařízenému ústnímu jednání nedostavil, nenamítal neplatnost ujednání ohledně povinnosti uhradit předchozí dluh ve výši [částka]. Poznatky o klamání žalovaného coby spotřebitele, ze strany žalobce coby poskytovatele spotřebitelského úvěru, vedou k závěru, že žalobce svým počínáním při uzavírání obou úvěrových smluv nepostupoval s odbornou péčí ve smyslu ust. § 75 zákona o spotřebitelském úvěru, nejednal čestně, transparentně, nezohledňoval práva a zájmy žalovaného ve smyslu § 76 odst. 1 zákona o spotřebitelském úvěru, neboť při komunikaci s ním, včetně propagačního sdělení, použil nepravdivé, zavádějící a klamavé informace, a to zejména ve vztahu k nákladům spotřebitelského úvěru. Nečestnost jednání žalobce je běžnou praxí. Žalobce sjednal s konkrétním spotřebitelem nejprve spotřebitelský úvěr na nižší částku, krátce potom, v řádu několika dnů nabídl spotřebiteli nový úvěr, znějící na částku vyšší, za podmínek popsaných v této úvěrové smlouvě. Žalobce při uzavírání úvěrové smlouvy byl v přímém rozporu se zákonem, od počátku směřoval k vytvoření situace, kdy v průběhu několika málo dnů poskytne žalovanému peněžní prostředky ve skutečnosti pouze na základě obou úvěrových smluv [částka] s tím, že bude inkasovat [částka]. Tento stav se příčí dobrým mravům, na obě smlouvy tak soud pohlížel jako na absolutně neplatné dle ust. § 588 občanského zákoníku. Tento závěr podporuje potřeba prevence naplněná jedině neplatností celé smlouvy (viz např. rozhodnutí Soudního dvora EU ve věci C [číslo]). Soud tak považoval uzavřenou smlouvu za absolutně neplatnou jako celek. Soud proto provedl vypořádání ve smyslu ust. § 2991 občanského zákoníku z titulu bezdůvodného obohacení a uložil žalovanému zaplatit žalobci částku [částka]. Žalobě bylo dále z části vyhověno, pokud žalobce považoval zákonný úrok z prodlení ve výši 10 % p. a. z částky [částka], přičemž počátek prodlení mohl být stanoven v návaznosti na upomínku k zaplacení dlužné částky. Upomínka byla předána poštovnímu úřadu k přepravě dne [datum]. Žalobce požadoval zákonný úrok z prodlení až od [datum]. Ve zbývající výši byla žaloba jako nedůvodná zamítnuta.\n9. O povinnosti žalobce doplatit soudní poplatek soud rozhodl na základě zákona o soudních poplatcích zák. č. 549/1991 Sb., sazebník poplatků, poplatky za řízení, položka 1 bod 1 písm. b) za návrh na zahájení občanského soudního řízení, jehož předmětem je peněžité plnění v částce vyšší než [částka] do [částka], činí soudní poplatek 5 % z této částky. Dle položky 2 bod 1 písm. c) za návrh na vydání elektronického platebního rozkazu, jehož předmětem je peněžité plnění v částce vyšší než [částka], činí soudní poplatek 4 % z této částky. Dle položky 2 bod 2, pokud soud platební rozkaz nevydá a pokračuje v řízení, doměří navrhovateli poplatek do výše položky 1.\n10. Soud platební rozkaz nevydal, žalobci tak doměřil soudní poplatek dle výše položky 1. Žalobce uhradil ve výši [částka] Soudní poplatek dle položky 1 činí [částka]. Žalobce je tak povinen doplatit soudní poplatek ve výši [částka], a to ve lhůtě do tří dnů od právní moci rozsudku.\n11. O nákladech řízení soud rozhodoval dle ust. § 142 odst. 2 o.s.ř., měl-li účastník ve věci úspěch jen částečný, soud náhradu nákladů poměrně rozdělí, popřípadě vysloví, že žádný z účastníků nemá na náhradu nákladů právo. Žalobce byl ve věci převážně neúspěšný, žalovanému žádné náklady řízení nevznikly. Soud tak rozhodl, že žádný z účastníků nemá právo na náhradu nákladů řízení.",
+  "information": [
+    {
+      "texts": [
+        {
+          "text": "Proti tomuto rozsudku lze podat odvolání do 15 dnů ode dne doručení jeho písemného vyhotovení, a to ke Krajskému soudu v Plzni, prostřednictvím Okresního soudu Plzeň-sever.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "Nebude-li dobrovolně splněna povinnost stanovená tímto rozsudkem, lze navrhnout soudní výkon rozhodnutí.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "metadata": {
+    "type": "JUDGEMENT",
+    "ecli": "ECLI:CZ:OSPS:2021:7.C.324.2019.2",
+    "publishedAt": "2022-01-03",
+    "decisionAt": "2021-10-20",
+    "caseNumber": {
+      "senate": 7,
+      "registry": "C",
+      "index": 324,
+      "year": 2019,
+      "pageNumber": 70
+    },
+    "solver": {
+      "titlesBefore": "Mgr.",
+      "firstName": "Jarmila",
+      "lastName": "Millerová",
+      "titlesAfter": "",
+      "function": ""
+    },
+    "courtCode": "OSPS",
+    "caseResultType": [
+      "VYHOVENI",
+      "ZAMITNUTI"
+    ],
+    "caseSubject": "73 112,28 Kč s přísl.",
+    "specialType": [],
+    "affectedDocs": [],
+    "regulations": [
+      {
+        "paragraphNumber": "580",
+        "lexNumber": 89,
+        "lexYear": 2012,
+        "lexType": "PREDPIS_ZAKON"
+      }
+    ],
+    "flags": [
+      "DOBRE_MRAVY",
+      "PENEZITE_PLNENI",
+      "SMLOUVA_O_UVERU",
+      "UROKY",
+      "UROKY_Z_PRODLENI"
+    ]
+  },
+  "styles": [
+    {
+      "localId": 0,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": false,
+      "italic": false
+    },
+    {
+      "localId": 1,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": true,
+      "italic": false
+    }
+  ]
+}

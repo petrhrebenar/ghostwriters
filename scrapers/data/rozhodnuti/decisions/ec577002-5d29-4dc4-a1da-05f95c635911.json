@@ -1,0 +1,1273 @@
+{
+  "uuid": "ec577002-5d29-4dc4-a1da-05f95c635911",
+  "header": [
+    {
+      "texts": [
+        {
+          "text": "Okresní soud Plzeň-sever rozhodl samosoudkyní Mgr. Jarmilou Millerovou v právní věci",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalobkyně: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalobkyně",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " zastoupená advokátem ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "údaje o zástupci",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "proti",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "žalovanému: ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "osobní údaje žalovaného",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "o zaplacení částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s příslušenstvím",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "verdict": [
+    {
+      "texts": [
+        {
+          "text": "I. Žalovaný je povinen žalobci zaplatit částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " s úrokem z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 8,25 %, a to ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "II. Žaloba se zamítá co do:",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) zákonného úroku z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ve výši 8,25 %",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) zákonného úroku z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 8,25 %",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) kapitalizovaného zákonného úroku z prodlení ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) kapitalizovaného úroku ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) nákladů spojených s uplatněním pohledávky ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "-) částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "III. Žalobce je povinen doplatit České republice na účet Okresního soudu Plzeň – sever soudní poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "IV. Žalovaný je povinen žalobci zaplatit 16 % nákladů řízení, tj. částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", a to ve lhůtě do tří dnů od právní moci rozsudku k rukám právního zástupce žalobce ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "příjmení",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "jméno",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "příjmení",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 1,
+      "tableCellInfo": null
+    }
+  ],
+  "verdictText": "<b>I. Žalovaný je povinen žalobci zaplatit částku [částka] s úrokem z prodlení z částky [částka] od [datum] do zaplacení ve výši 8,25 %, a to ve lhůtě do tří dnů od právní moci rozsudku.</b>\n<b>II. Žaloba se zamítá co do:</b>\n<b>-) částky [částka]</b>\n<b>-) zákonného úroku z prodlení z částky [částka] od [datum] do [datum] ve výši 8,25 %</b>\n<b>-) zákonného úroku z prodlení z částky [částka] od [datum] do zaplacení ve výši 8,25 %</b>\n<b>-) kapitalizovaného zákonného úroku z prodlení ve výši [částka]</b>\n<b>-) kapitalizovaného úroku ve výši [částka]</b>\n<b>-) nákladů spojených s uplatněním pohledávky ve výši [částka]</b>\n<b>-) částky [částka]</b>\n<b>III. Žalobce je povinen doplatit České republice na účet Okresního soudu Plzeň – sever soudní poplatek ve výši [částka], a to ve lhůtě do tří dnů od právní moci rozsudku.</b>\n<b>IV. Žalovaný je povinen žalobci zaplatit 16 % nákladů řízení, tj. částku [částka], a to ve lhůtě do tří dnů od právní moci rozsudku k rukám právního zástupce žalobce [příjmení] [jméno] [příjmení].</b>",
+  "justification": [
+    {
+      "texts": [
+        {
+          "text": "1. Žalobou podanou Okresnímu soudu Plzeň – sever dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " se žalobce domáhal zaplacení částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " se zákonným úrokem z prodlení z částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení ve výši 8,25 %, s kapitalizovaným zákonným úrokem z prodlení ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", kapitalizovaným úrokem ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", náklady spojené s uplatněním pohledávky ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a zaplacení částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "2. Žalobce odůvodnil žalobu tím, že dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " uzavřel žalovaný s právním předchůdcem žalobce, společností ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "IČO",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", smlouvu o úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", platnou a účinnou ve znění smlouvy o úvěru ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", jejíž nedílnou součástí byly obchodní podmínky smlouvy o úvěru. Na základě smlouvy poskytla ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " žalovanému úvěr ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalovaný se zavázal žalobci vrátit částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " spolu s příslušenstvím do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalovaný však sjednanou částku neuhradil řádně a včas, tím mu vznikla povinnost zaplatit ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " smluvní pokutu ve výši 0,1 % z dlužné jistiny, a to za každý den prodlení. Dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " byla mezi ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a žalobcem uzavřena smlouva o postoupení pohledávek, která obsahem odpovídá rámcové smlouvě. Na základě rámcové smlouvy tak došlo k uzavírání jednotlivých dílčích smluv o postupování pohledávek. Celková hodnota pohledávky za žalovaným činila ke dni postoupení ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", skládala se z nesplacené jistiny ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", nesplacené smluvní pokuty ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", neuhrazené paušální náhrady nákladů za upomínání ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "příjmení",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " paušální náhrady na upomínání představuje výši poplatků za odeslání písemných upomínek v důsledku prodlení žalovaného. Sjednaná výše úhrady za jednotlivou upomínku je ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". V žalobě je příslušenství pohledávky specifikováno pevnou částku. Žalobci tak nezbylo nic jiného, než příslušenství pohledávky v žalobě uvést do pole, které je ve formuláři vyhrazeno kapitalizovanému úroku, ve skutečnosti tato částka představuje náklady na upomínání ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalobce požaduje nad rámec postoupené pohledávky i kapitalizovaný zákonný úrok z prodlení ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", po revizním přepočtu za období od 1. dne prodlení po splatnosti závazku, tj. od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", kdy základem pro výpočet zákonného úroku z prodlení byla postoupená jistina pohledávky ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Žalobce dále požaduje zákonný úrok z prodlení ve výši určené datem splatnosti pohledávky od následujícího dne po účinnosti postoupení pohledávky, tj. od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", z jistiny ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a dále náklady mimosoudního vymáhání spojené s uplatněním pohledávky ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". K nákladům mimosoudního vymáhání spojeným s uplatněním pohledávky žalobce uvádí, že je specifikuje tak, že odchozí dopis činí ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", odchozí dopis doporučeně ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", odchozí telefonický hovor ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", osobní návštěva ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Vzhledem ke skutečnosti, že žalovaný porušil svou povinnost platit částku sjednanou ve smlouvě řádně a včas, vznikla mu povinnost zaplatit ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " smluvní pokutu ve výši 0,1 % z dlužné jistiny. Po revizním přepočtu smluvní pokuty žalobce po žalovaném požaduje smluvní pokutu ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", počítané ode dne následujícího po dni splatnosti půjčky, tj. ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", z dlužné jistiny pohledávky ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "3. V doplnění žaloby žalobce uvedl, že žalovaný uhradil na závazek celkem ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", z toho na úrok byla alokována částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", na jistinu ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Do data ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " však již žalovaný ničeho neuhradil.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "4. Žalovaný se k žalobě nevyjádřil.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "5. O žalobě soud rozhodl v souladu s ust. § 115a o.s.ř. bez nařízení jednání, pouze na základě předložených listinných důkazů, když zástupce žalobce i žalovaný se práva účasti na projednání věci vzdali.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "6. Podle § 2 odst. 1 občanského zákoníku, každé ustanovení soukromého práva lze vykládat jenom ve shodě s Listinou základních práv a svobod a ústavním pořádkem vůbec, se zásadami, na nichž spočívá tento zákon, jakož i s trvalým zřetelem k hodnotám, které se tím chrání. Rozejde-li se výklad jednotlivého ustanovení pouze podle jeho slov s tímto příkazem, musí mu ustoupit.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "7. Podle § 2 odst. 3. občanského zákoníku, výklad a použití právního předpisu, nesmí být v rozporu s dobrými mravy a nesmí vést ke krutosti nebo bezohlednosti urážející obyčejné lidské cítění.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "8. Podle § 580 Občanského zákoníku neplatné je právní jednání, které se příčí dobrým mravům, jakože právní jednání, které odporuje zákonu, pokud to smysl a účel zákona vyžaduje.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "9. Podle nálezu Ústavního soudu IV. US ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " výkonu práva, který je jeho zneužitím, soudy nemohou poskytnout ochranu, neboť by to bylo v rozporu nejen s ustanovením Občanského zákoníku, ale především článku 36 Listiny.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "10. V rozhodnutí Nejvyššího soudu ČR spis. značka 33 Odo 234/2005, dále např. spis. značka 21 Cdo 1484/2004 se uvádí:„ Při sjednání úroku, při peněžité půjčce jedná v souladu s dobrými mravy jen ten věřitel, který požaduje přiměřený úrok bez ohledu na to, že dlužník uzavírá smlouvu o půjčce v situaci pro něho obtížné. Nepřiměřeným úrokem je zpravidla úrok sjednaný ve výši, která podstatně přesahuje úrokovou míru v době jeho sjednání obvyklou, stanovenou zejména s přihlédnutím k nejvyšším úrokovým sazbám uplatňovaných bankami při poskytování úvěru nebo půjček, i když lze připustit, že půjčky na základě smluv uzavíraných fyzickými osobami, zejména v případě, kdy je dlužníkem osoba, nacházející se v obtížné situaci, mají prověřitelé na rozdíl od půjček či úvěrů poskytovaných peněžními ústavy výrazně vyšší míru rizikovosti a proto v závislosti na okolnostech konkrétního případu nemusí být nepřiměřený ani úrok, který je dvojnásobkem či trojnásobkem míry úrokové sazby peněžních ústavů. Nelze však tolerovat extrémní případy, kdy úrok přesahuje obvyklou míru zcela neadekvátním způsobem“.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "11. Žalobce prokázal, že je aktivně legitimován k podání žaloby, když ze smlouvy o postoupení pohledávek ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", uzavřené mezi postupitelem, společností ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "IČO",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a žalobcem jako postupníkem, vyplynulo, že původní věřitel pohledávku vymáhanou touto žalobou postoupil žalobci v souladu s ust. § 1879 občanského zákoníku a násl., s účinností ke dni ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Postoupení pohledávky bylo žalovanému oznámeno. Z důkazu smlouva o úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " soud zjistil, že věřitel ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " a žalovaný jako klient uzavřeli ve smyslu ust. § 2395 občanského zákoníku a násl. smlouvu o úvěru, na základě které se ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "právnická osoba",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " zavázala žalovanému poskytnout úvěr ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", žalovaný se zavázal věřiteli vrátit částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " RPSN za celý úvěr činí 4007,6 %, přičemž délka splatnosti půjčky činí 22 dnů. Ze smlouvy o úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " (smlouva stejného číslování) soud zjistil, že touto smlouvou se mění a doplňují podmínky smlouvy o úvěru ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " to tak, že celková částka jistiny úvěru činí ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", žalovaný se zavázal splatit žalobci částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", přičemž RPSN za celý úvěr činí 6618,9 %.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "12. Uzavřenou smlouvu soud považoval za absolutně neplatnou pro rozpor s dobrými mravy. Smlouva o úvěru se příčí dobrým mravům jako celek, soud jí tak shledal absolutně neplatnou dle ust. § 588 věta první občanského zákoníku. K takové neplatnosti soud musí přihlédnout z úřední povinnosti, aplikace dle ust. § 577 občanského zákoníku je vyloučena. Právní předchůdce žalobce zneužil absence zákonné úpravy limitující úrokové míry při poskytování zápůjček či úvěrů a to i spotřebitelských. V části, která nepodléhá zákonné regulaci, právní předchůdce žalobce do smluvních ujednání zahrnul povinnost dlužníka platit absolutně velké navýšení 6618,9 % p. a. K datu uzavření smlouvy o úvěru, tj. k datu ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", činila průměrná úroková sazba u půjček a úvěrů poskytovaných peněžními ústavy v případě se splatností do jednoho roku 10,74 % p. a. (dle statistiky ČNB průměrná úroková sazba u půjček a úvěrů poskytovaných peněžními ústavy v případě se splatností do jednoho roku). Bylo by tak možné tolerovat navýšení 32,22 % p. a. Uzavře-li smlouvu o úvěru věřitel proto, aby od spotřebitele, tedy slabší strany, získal úroky a další plnění ve zjevně nemravné výši, je nemravná celá smlouva. Tento závěr podporuje potřeba prevence naplněná jedině neplatností celé smlouvy (viz např. rozhodnutí Soudního dvora EU ve věci C ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "). Soud tak provedl vypořádání z titulu bezdůvodného obohacení ve smyslu ust. § 2991 občanského zákoníku a násl. Právní předchůdce žalobce žalovanému poskytl částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", žalovaný uhradil ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", dluží ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Soud dále žalobě vyhověl, pokud žalobce požadoval úrok z prodlení ve výši 8,25 % p. a. od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " do zaplacení, přičemž počátek prodlení byl stanoven v návaznosti na upomínku obsaženou v oznámení o postoupení pohledávky ze dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", které bylo předáno poštovnímu úřadu k přepravě dne ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", následujícího dne, tedy ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " se upomínka již mohla dostat do sféry dispozice žalovaného. Žalovaný byl povinen plnit okamžitě, tedy do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", od ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "datum",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " je v prodlení. Ve zbývající výši byla žaloba jako nedůvodná zamítnuta.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "13. Podle zákona o soudních poplatcích zák. č. 549/1991 Sb., sazebník poplatků, poplatky za řízení, položka 1 bod 1 písm. a) za návrh na zahájení občanského soudního řízení, jehož předmětem je peněžité plnění do částky ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", činí soudní poplatek ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Dle položky 2 bod 1 písm. a) za návrh na vydání elektronického platebního rozkazu, jehož předmětem je peněžité plnění v částce do ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", činí soudní poplatek ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Dle položky 2 bod 2, pokud soud platební rozkaz nevydá, pokračuje v řízení, doměří navrhovateli poplatek do výše dle položky 1.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "14. Žalobce současně s podáním žaloby uhradil soudní poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Soud platební rozkaz nevydal, doměřil tak žalobci poplatek dle položky 1. Částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " je žalobce povinen uhradit České republice na účet Okresního soudu Plzeň – sever ve lhůtě do tří dnů od právní moci rozsudku.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "15. O nákladech řízení soud rozhodoval dle ust. § 142 odst. 2 o.s.ř., měl-li účastník ve věci úspěch jen částečný, soud náhradu nákladů poměrně rozdělí, popřípadě vysloví, že žádný z účastníků nemá na náhradu nákladů právo. Žalobce byl ve věci úspěšný z 58 %, ze 42 % byl neúspěšný. Žalobci tak náleží 16 % účelně vynaložených nákladů řízení. Při vyčíslení míry úspěchu a neúspěchu soud přihlížel i k požadovanému příslušenství (viz nález Ústavního soudu I. US ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "číslo",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": "). Náklady řízení žalobce představuje zaplacený soudní poplatek ve výši ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", který žalobce již uhradil a částka ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", představující soudní poplatek, který žalobce bude ještě povinen doplatit. Další účelně vynaložené náklady řízení představují náklady na právní zastoupení dle vyhl. č. 177/1996 Sb., § 14b, za tři úkony právní pomoci á ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " = ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ", tři režijní paušály á ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": " + 21 % DPH (jde o následující úkony právní pomoci – 1. příprava převzetí věci, 2. sepis předžalobní upomínky, 3. sepis žaloby). Celkem účelně vynaložené náklady řízení činí ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ". Z toho 16 % představuje částku ",
+          "anonStyle": "NONE"
+        },
+        {
+          "text": "částka",
+          "anonStyle": "ANON"
+        },
+        {
+          "text": ".",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "justificationText": "1. Žalobou podanou Okresnímu soudu Plzeň – sever dne [datum] se žalobce domáhal zaplacení částky [částka] se zákonným úrokem z prodlení z částky [částka] od [datum] do zaplacení ve výši 8,25 %, s kapitalizovaným zákonným úrokem z prodlení ve výši [částka], kapitalizovaným úrokem ve výši [částka], náklady spojené s uplatněním pohledávky ve výši [částka] a zaplacení částky [částka].\n2. Žalobce odůvodnil žalobu tím, že dne [datum] uzavřel žalovaný s právním předchůdcem žalobce, společností [právnická osoba], [IČO], smlouvu o úvěru [číslo], platnou a účinnou ve znění smlouvy o úvěru ze dne [datum], jejíž nedílnou součástí byly obchodní podmínky smlouvy o úvěru. Na základě smlouvy poskytla [právnická osoba] žalovanému úvěr ve výši [částka]. Žalovaný se zavázal žalobci vrátit částku [částka] spolu s příslušenstvím do [datum]. Žalovaný však sjednanou částku neuhradil řádně a včas, tím mu vznikla povinnost zaplatit [právnická osoba] smluvní pokutu ve výši 0,1 % z dlužné jistiny, a to za každý den prodlení. Dne [datum] byla mezi [právnická osoba] a žalobcem uzavřena smlouva o postoupení pohledávek, která obsahem odpovídá rámcové smlouvě. Na základě rámcové smlouvy tak došlo k uzavírání jednotlivých dílčích smluv o postupování pohledávek. Celková hodnota pohledávky za žalovaným činila ke dni postoupení [částka], skládala se z nesplacené jistiny ve výši [částka], nesplacené smluvní pokuty ve výši [částka], neuhrazené paušální náhrady nákladů za upomínání ve výši [částka]. [příjmení] paušální náhrady na upomínání představuje výši poplatků za odeslání písemných upomínek v důsledku prodlení žalovaného. Sjednaná výše úhrady za jednotlivou upomínku je [částka]. V žalobě je příslušenství pohledávky specifikováno pevnou částku. Žalobci tak nezbylo nic jiného, než příslušenství pohledávky v žalobě uvést do pole, které je ve formuláři vyhrazeno kapitalizovanému úroku, ve skutečnosti tato částka představuje náklady na upomínání ve výši [částka]. Žalobce požaduje nad rámec postoupené pohledávky i kapitalizovaný zákonný úrok z prodlení ve výši [částka], po revizním přepočtu za období od 1. dne prodlení po splatnosti závazku, tj. od [datum] do [datum], kdy základem pro výpočet zákonného úroku z prodlení byla postoupená jistina pohledávky ve výši [částka]. Žalobce dále požaduje zákonný úrok z prodlení ve výši určené datem splatnosti pohledávky od následujícího dne po účinnosti postoupení pohledávky, tj. od [datum], z jistiny ve výši [částka] a dále náklady mimosoudního vymáhání spojené s uplatněním pohledávky ve výši [částka]. K nákladům mimosoudního vymáhání spojeným s uplatněním pohledávky žalobce uvádí, že je specifikuje tak, že odchozí dopis činí [částka], odchozí dopis doporučeně [částka], odchozí telefonický hovor [částka], osobní návštěva [částka]. Vzhledem ke skutečnosti, že žalovaný porušil svou povinnost platit částku sjednanou ve smlouvě řádně a včas, vznikla mu povinnost zaplatit [právnická osoba] smluvní pokutu ve výši 0,1 % z dlužné jistiny. Po revizním přepočtu smluvní pokuty žalobce po žalovaném požaduje smluvní pokutu ve výši [částka], počítané ode dne následujícího po dni splatnosti půjčky, tj. [datum], z dlužné jistiny pohledávky ve výši [částka], do [datum].\n3. V doplnění žaloby žalobce uvedl, že žalovaný uhradil na závazek celkem [částka], z toho na úrok byla alokována částka [částka], na jistinu [částka]. Do data [datum] však již žalovaný ničeho neuhradil.\n4. Žalovaný se k žalobě nevyjádřil.\n5. O žalobě soud rozhodl v souladu s ust. § 115a o.s.ř. bez nařízení jednání, pouze na základě předložených listinných důkazů, když zástupce žalobce i žalovaný se práva účasti na projednání věci vzdali.\n6. Podle § 2 odst. 1 občanského zákoníku, každé ustanovení soukromého práva lze vykládat jenom ve shodě s Listinou základních práv a svobod a ústavním pořádkem vůbec, se zásadami, na nichž spočívá tento zákon, jakož i s trvalým zřetelem k hodnotám, které se tím chrání. Rozejde-li se výklad jednotlivého ustanovení pouze podle jeho slov s tímto příkazem, musí mu ustoupit.\n7. Podle § 2 odst. 3. občanského zákoníku, výklad a použití právního předpisu, nesmí být v rozporu s dobrými mravy a nesmí vést ke krutosti nebo bezohlednosti urážející obyčejné lidské cítění.\n8. Podle § 580 Občanského zákoníku neplatné je právní jednání, které se příčí dobrým mravům, jakože právní jednání, které odporuje zákonu, pokud to smysl a účel zákona vyžaduje.\n9. Podle nálezu Ústavního soudu IV. US [číslo] výkonu práva, který je jeho zneužitím, soudy nemohou poskytnout ochranu, neboť by to bylo v rozporu nejen s ustanovením Občanského zákoníku, ale především článku 36 Listiny.\n10. V rozhodnutí Nejvyššího soudu ČR spis. značka 33 Odo 234/2005, dále např. spis. značka 21 Cdo 1484/2004 se uvádí:„ Při sjednání úroku, při peněžité půjčce jedná v souladu s dobrými mravy jen ten věřitel, který požaduje přiměřený úrok bez ohledu na to, že dlužník uzavírá smlouvu o půjčce v situaci pro něho obtížné. Nepřiměřeným úrokem je zpravidla úrok sjednaný ve výši, která podstatně přesahuje úrokovou míru v době jeho sjednání obvyklou, stanovenou zejména s přihlédnutím k nejvyšším úrokovým sazbám uplatňovaných bankami při poskytování úvěru nebo půjček, i když lze připustit, že půjčky na základě smluv uzavíraných fyzickými osobami, zejména v případě, kdy je dlužníkem osoba, nacházející se v obtížné situaci, mají prověřitelé na rozdíl od půjček či úvěrů poskytovaných peněžními ústavy výrazně vyšší míru rizikovosti a proto v závislosti na okolnostech konkrétního případu nemusí být nepřiměřený ani úrok, který je dvojnásobkem či trojnásobkem míry úrokové sazby peněžních ústavů. Nelze však tolerovat extrémní případy, kdy úrok přesahuje obvyklou míru zcela neadekvátním způsobem“.\n11. Žalobce prokázal, že je aktivně legitimován k podání žaloby, když ze smlouvy o postoupení pohledávek ze dne [datum], uzavřené mezi postupitelem, společností [právnická osoba], [IČO] a žalobcem jako postupníkem, vyplynulo, že původní věřitel pohledávku vymáhanou touto žalobou postoupil žalobci v souladu s ust. § 1879 občanského zákoníku a násl., s účinností ke dni [datum]. Postoupení pohledávky bylo žalovanému oznámeno. Z důkazu smlouva o úvěru [číslo] ze dne [datum] soud zjistil, že věřitel [právnická osoba] a žalovaný jako klient uzavřeli ve smyslu ust. § 2395 občanského zákoníku a násl. smlouvu o úvěru, na základě které se [právnická osoba] zavázala žalovanému poskytnout úvěr ve výši [částka] do [datum], žalovaný se zavázal věřiteli vrátit částku [částka] RPSN za celý úvěr činí 4007,6 %, přičemž délka splatnosti půjčky činí 22 dnů. Ze smlouvy o úvěru [číslo] ze dne [datum] (smlouva stejného číslování) soud zjistil, že touto smlouvou se mění a doplňují podmínky smlouvy o úvěru [číslo] to tak, že celková částka jistiny úvěru činí [částka], žalovaný se zavázal splatit žalobci částku [částka] do [datum], přičemž RPSN za celý úvěr činí 6618,9 %.\n12. Uzavřenou smlouvu soud považoval za absolutně neplatnou pro rozpor s dobrými mravy. Smlouva o úvěru se příčí dobrým mravům jako celek, soud jí tak shledal absolutně neplatnou dle ust. § 588 věta první občanského zákoníku. K takové neplatnosti soud musí přihlédnout z úřední povinnosti, aplikace dle ust. § 577 občanského zákoníku je vyloučena. Právní předchůdce žalobce zneužil absence zákonné úpravy limitující úrokové míry při poskytování zápůjček či úvěrů a to i spotřebitelských. V části, která nepodléhá zákonné regulaci, právní předchůdce žalobce do smluvních ujednání zahrnul povinnost dlužníka platit absolutně velké navýšení 6618,9 % p. a. K datu uzavření smlouvy o úvěru, tj. k datu [datum], činila průměrná úroková sazba u půjček a úvěrů poskytovaných peněžními ústavy v případě se splatností do jednoho roku 10,74 % p. a. (dle statistiky ČNB průměrná úroková sazba u půjček a úvěrů poskytovaných peněžními ústavy v případě se splatností do jednoho roku). Bylo by tak možné tolerovat navýšení 32,22 % p. a. Uzavře-li smlouvu o úvěru věřitel proto, aby od spotřebitele, tedy slabší strany, získal úroky a další plnění ve zjevně nemravné výši, je nemravná celá smlouva. Tento závěr podporuje potřeba prevence naplněná jedině neplatností celé smlouvy (viz např. rozhodnutí Soudního dvora EU ve věci C [číslo]). Soud tak provedl vypořádání z titulu bezdůvodného obohacení ve smyslu ust. § 2991 občanského zákoníku a násl. Právní předchůdce žalobce žalovanému poskytl částku [částka], žalovaný uhradil [částka], dluží [částka]. Soud dále žalobě vyhověl, pokud žalobce požadoval úrok z prodlení ve výši 8,25 % p. a. od [datum] do zaplacení, přičemž počátek prodlení byl stanoven v návaznosti na upomínku obsaženou v oznámení o postoupení pohledávky ze dne [datum], které bylo předáno poštovnímu úřadu k přepravě dne [datum], následujícího dne, tedy [datum] se upomínka již mohla dostat do sféry dispozice žalovaného. Žalovaný byl povinen plnit okamžitě, tedy do [datum], od [datum] je v prodlení. Ve zbývající výši byla žaloba jako nedůvodná zamítnuta.\n13. Podle zákona o soudních poplatcích zák. č. 549/1991 Sb., sazebník poplatků, poplatky za řízení, položka 1 bod 1 písm. a) za návrh na zahájení občanského soudního řízení, jehož předmětem je peněžité plnění do částky [částka], činí soudní poplatek [částka]. Dle položky 2 bod 1 písm. a) za návrh na vydání elektronického platebního rozkazu, jehož předmětem je peněžité plnění v částce do [částka], činí soudní poplatek [částka]. Dle položky 2 bod 2, pokud soud platební rozkaz nevydá, pokračuje v řízení, doměří navrhovateli poplatek do výše dle položky 1.\n14. Žalobce současně s podáním žaloby uhradil soudní poplatek ve výši [částka]. Soud platební rozkaz nevydal, doměřil tak žalobci poplatek dle položky 1. Částku [částka] je žalobce povinen uhradit České republice na účet Okresního soudu Plzeň – sever ve lhůtě do tří dnů od právní moci rozsudku.\n15. O nákladech řízení soud rozhodoval dle ust. § 142 odst. 2 o.s.ř., měl-li účastník ve věci úspěch jen částečný, soud náhradu nákladů poměrně rozdělí, popřípadě vysloví, že žádný z účastníků nemá na náhradu nákladů právo. Žalobce byl ve věci úspěšný z 58 %, ze 42 % byl neúspěšný. Žalobci tak náleží 16 % účelně vynaložených nákladů řízení. Při vyčíslení míry úspěchu a neúspěchu soud přihlížel i k požadovanému příslušenství (viz nález Ústavního soudu I. US [číslo]). Náklady řízení žalobce představuje zaplacený soudní poplatek ve výši [částka], který žalobce již uhradil a částka [částka], představující soudní poplatek, který žalobce bude ještě povinen doplatit. Další účelně vynaložené náklady řízení představují náklady na právní zastoupení dle vyhl. č. 177/1996 Sb., § 14b, za tři úkony právní pomoci á [částka] = [částka], tři režijní paušály á [částka] + 21 % DPH (jde o následující úkony právní pomoci – 1. příprava převzetí věci, 2. sepis předžalobní upomínky, 3. sepis žaloby). Celkem účelně vynaložené náklady řízení činí [částka]. Z toho 16 % představuje částku [částka].",
+  "information": [
+    {
+      "texts": [
+        {
+          "text": "Proti tomuto rozsudku nelze podat odvolání.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    },
+    {
+      "texts": [
+        {
+          "text": "Nebude-li dobrovolně splněna povinnost stanovená tímto rozsudkem, lze navrhnout soudní výkon rozhodnutí.",
+          "anonStyle": "NONE"
+        }
+      ],
+      "styleLocalId": 0,
+      "tableCellInfo": null
+    }
+  ],
+  "metadata": {
+    "type": "JUDGEMENT",
+    "ecli": "ECLI:CZ:OSPS:2021:7.C.204.2021.3",
+    "publishedAt": "2022-01-03",
+    "decisionAt": "2021-10-27",
+    "caseNumber": {
+      "senate": 7,
+      "registry": "C",
+      "index": 204,
+      "year": 2021,
+      "pageNumber": 19
+    },
+    "solver": {
+      "titlesBefore": "Mgr.",
+      "firstName": "Jarmila",
+      "lastName": "Millerová",
+      "titlesAfter": "",
+      "function": ""
+    },
+    "courtCode": "OSPS",
+    "caseResultType": [
+      "VYHOVENI",
+      "ZAMITNUTI"
+    ],
+    "caseSubject": "4 543 Kč s přísl.",
+    "specialType": [],
+    "affectedDocs": [],
+    "regulations": [
+      {
+        "paragraphNumber": "588",
+        "lexNumber": 89,
+        "lexYear": 2012,
+        "lexType": "PREDPIS_ZAKON"
+      }
+    ],
+    "flags": [
+      "BEZDUVODNE_OBOHACENI",
+      "PENEZITE_PLNENI",
+      "POSTOUPENI_POHLEDAVKY",
+      "SMLOUVA_O_PUJCCE",
+      "SMLOUVA_O_UVERU",
+      "UROKY_Z_PRODLENI"
+    ]
+  },
+  "styles": [
+    {
+      "localId": 0,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": false,
+      "italic": false
+    },
+    {
+      "localId": 1,
+      "alignment": "LEFT",
+      "hasSpaceBefore": false,
+      "hasSpaceAfter": false,
+      "bold": true,
+      "italic": false
+    }
+  ]
+}

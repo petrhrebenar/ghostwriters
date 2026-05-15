@@ -1,0 +1,281 @@
+{
+  "scrape_date": "2026-05-15T13:25:31.159366",
+  "num_decisions_scraped": 10,
+  "target_decisions": 10,
+  "statistics": {
+    "total_requests": 13,
+    "successful_fetches": 13,
+    "failed_fetches": 0,
+    "data_losses": []
+  },
+  "results": {
+    "4c83a777-c543-448e-949f-e0093fad9229": {
+      "ecli": "ECLI:CZ:OSPS:2021:7.C.324.2019.2",
+      "filepath": "data/rozhodnuti/decisions/4c83a777-c543-448e-949f-e0093fad9229.json",
+      "metadata": {
+        "jednaciCislo": "7 C 324/2019-70",
+        "soud": "Okresní soud Plzeň-sever",
+        "autor": "Mgr. Jarmila Millerová",
+        "ecli": "ECLI:CZ:OSPS:2021:7.C.324.2019.2",
+        "predmetRizeni": "73 112,28 Kč s přísl.",
+        "datumVydani": "2021-10-20",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "dobré mravy",
+          "peněžité plnění",
+          "smlouva o úvěru",
+          "úroky",
+          "úroky z prodlení"
+        ],
+        "zminenaUstanoveni": [
+          "§ 580 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/4c83a777-c543-448e-949f-e0093fad9229"
+      },
+      "warnings": null
+    },
+    "5ae90a0d-594a-461e-a90c-6e8ac856f0b9": {
+      "ecli": "ECLI:CZ:OSZN:2021:9.C.83.2021.1",
+      "filepath": "data/rozhodnuti/decisions/5ae90a0d-594a-461e-a90c-6e8ac856f0b9.json",
+      "metadata": {
+        "jednaciCislo": "9 C 83/2021-32",
+        "soud": "Okresní soud ve Znojmě",
+        "autor": "JUDr. Marie Hladíková",
+        "ecli": "ECLI:CZ:OSZN:2021:9.C.83.2021.1",
+        "predmetRizeni": "[částka] s příslušenstvím",
+        "datumVydani": "2021-10-25",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "peněžité plnění",
+          "společenství vlastníků jednotek"
+        ],
+        "zminenaUstanoveni": [
+          "§ 202 z. č. 99/1963 Sb.",
+          "§ 1970 z. č. 89/2012 Sb.",
+          "§ 2 nař. vl. č. 351/2013 Sb.",
+          "§ 13 vyhl. č. 177/1996 Sb.",
+          "§ 7 vyhl. č. 177/1996 Sb.",
+          "§ 11 vyhl. č. 177/1996 Sb.",
+          "§ 1181 z. č. 89/2012 Sb.",
+          "§ 1180 z. č. 89/2012 Sb.",
+          "§ 1194 z. č. 89/2012 Sb.",
+          "§ 1176 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/5ae90a0d-594a-461e-a90c-6e8ac856f0b9"
+      },
+      "warnings": null
+    },
+    "ec577002-5d29-4dc4-a1da-05f95c635911": {
+      "ecli": "ECLI:CZ:OSPS:2021:7.C.204.2021.3",
+      "filepath": "data/rozhodnuti/decisions/ec577002-5d29-4dc4-a1da-05f95c635911.json",
+      "metadata": {
+        "jednaciCislo": "7 C 204/2021-19",
+        "soud": "Okresní soud Plzeň-sever",
+        "autor": "Mgr. Jarmila Millerová",
+        "ecli": "ECLI:CZ:OSPS:2021:7.C.204.2021.3",
+        "predmetRizeni": "4 543 Kč s přísl.",
+        "datumVydani": "2021-10-27",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "bezdůvodné obohacení",
+          "peněžité plnění",
+          "postoupení pohledávky",
+          "smlouva o půjčce",
+          "smlouva o úvěru",
+          "úroky z prodlení"
+        ],
+        "zminenaUstanoveni": [
+          "§ 588 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/ec577002-5d29-4dc4-a1da-05f95c635911"
+      },
+      "warnings": null
+    },
+    "6658f0c6-df6f-46dd-b348-58394a534a15": {
+      "ecli": "ECLI:CZ:OSOL:2021:12.C.219.2021.2",
+      "filepath": "data/rozhodnuti/decisions/6658f0c6-df6f-46dd-b348-58394a534a15.json",
+      "metadata": {
+        "jednaciCislo": "12 C 219/2021-49",
+        "soud": "Okresní soud v Olomouci",
+        "autor": "JUDr. Jitka Rollerová, Dr.",
+        "ecli": "ECLI:CZ:OSOL:2021:12.C.219.2021.2",
+        "predmetRizeni": "o 14 506 Kč s příslušenstvím",
+        "datumVydani": "2021-11-08",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [],
+        "zminenaUstanoveni": [
+          "§ 142 z. č. 99/1963 Sb.",
+          "§ 1970 z. č. 89/2012 Sb.",
+          "§ 1968 z. č. 89/2012 Sb.",
+          "§ 115a z. č. 99/1963 Sb.",
+          "§ 149 z. č. 99/1963 Sb.",
+          "§ 160 z. č. 99/1963 Sb.",
+          "§ 2395 z. č. 89/2012 Sb.",
+          "§ 14 vyhl. č. 177/1996 Sb.",
+          "§ 2398 z. č. 89/2012 Sb.",
+          "§ 2399 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/6658f0c6-df6f-46dd-b348-58394a534a15"
+      },
+      "warnings": null
+    },
+    "b1b80ddc-531a-40be-8fcd-2cf4ba8ec417": {
+      "ecli": "ECLI:CZ:OSLN:2021:11.C.191.2021.1",
+      "filepath": "data/rozhodnuti/decisions/b1b80ddc-531a-40be-8fcd-2cf4ba8ec417.json",
+      "metadata": {
+        "jednaciCislo": "11 C 191/2021-51",
+        "soud": "Okresní soud v Lounech",
+        "autor": "JUDr. Ivana Koberová, Ph.D.",
+        "ecli": "ECLI:CZ:OSLN:2021:11.C.191.2021.1",
+        "predmetRizeni": "O zaplacení 21 600 Kč s příslušenstvím",
+        "datumVydani": "2021-11-11",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "peněžité plnění",
+          "postoupení pohledávky"
+        ],
+        "zminenaUstanoveni": [
+          "§ 2991 z. č. 89/2012 Sb.",
+          "§ 2390 z. č. 89/2012 Sb.",
+          "§ 588 z. č. 89/2012 Sb.",
+          "§ 2993 z. č. 89/2012 Sb.",
+          "§ 580 z. č. 89/2012 Sb.",
+          "§ 86 z. č. 257/2016 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/b1b80ddc-531a-40be-8fcd-2cf4ba8ec417"
+      },
+      "warnings": null
+    },
+    "07e4b719-171b-4578-a6f3-200c7450dada": {
+      "ecli": "ECLI:CZ:OSZL:2021:35.C.291.2021.1",
+      "filepath": "data/rozhodnuti/decisions/07e4b719-171b-4578-a6f3-200c7450dada.json",
+      "metadata": {
+        "jednaciCislo": "35 C 291/2021-21",
+        "soud": "Okresní soud ve Zlíně",
+        "autor": "JUDr. Martina Kocábová",
+        "ecli": "ECLI:CZ:OSZL:2021:35.C.291.2021.1",
+        "predmetRizeni": "rozvod manželství",
+        "datumVydani": "2021-12-14",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "rozvod manželství"
+        ],
+        "zminenaUstanoveni": [
+          "§ 755 z. č. 89/2012 Sb.",
+          "§ 157 z. č. 99/1963 Sb.",
+          "§ 756 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/07e4b719-171b-4578-a6f3-200c7450dada"
+      },
+      "warnings": null
+    },
+    "2413a5f1-816a-426d-941d-e779519b739d": {
+      "ecli": "ECLI:CZ:OSLN:2021:11.C.170.2021.1",
+      "filepath": "data/rozhodnuti/decisions/2413a5f1-816a-426d-941d-e779519b739d.json",
+      "metadata": {
+        "jednaciCislo": "11 C 170/2021-34",
+        "soud": "Okresní soud v Lounech",
+        "autor": "JUDr. Ivana Koberová, Ph.D.",
+        "ecli": "ECLI:CZ:OSLN:2021:11.C.170.2021.1",
+        "predmetRizeni": "O zaplacení 1 500 Kč s příslušenstvím",
+        "datumVydani": "2021-11-22",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "jízdné",
+          "peněžité plnění"
+        ],
+        "zminenaUstanoveni": [
+          "§ 37 z. č. 266/1994 Sb.",
+          "§ 2550 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/2413a5f1-816a-426d-941d-e779519b739d"
+      },
+      "warnings": null
+    },
+    "bda8b1bf-4048-48c4-beb2-30bd370283e5": {
+      "ecli": "ECLI:CZ:OSLN:2021:11.C.59.2021.1",
+      "filepath": "data/rozhodnuti/decisions/bda8b1bf-4048-48c4-beb2-30bd370283e5.json",
+      "metadata": {
+        "jednaciCislo": "11 C 59/2021-86",
+        "soud": "Okresní soud v Lounech",
+        "autor": "JUDr. Ivana Koberová, Ph.D.",
+        "ecli": "ECLI:CZ:OSLN:2021:11.C.59.2021.1",
+        "predmetRizeni": "O zaplacení 61 354 Kč s příslušenstvím",
+        "datumVydani": "2021-11-18",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "peněžité plnění",
+          "smlouva o úvěru",
+          "smlouva pracovní"
+        ],
+        "zminenaUstanoveni": [
+          "§ 2991 z. č. 89/2012 Sb.",
+          "§ 2395 z. č. 89/2012 Sb.",
+          "§ 588 z. č. 89/2012 Sb.",
+          "§ 2993 z. č. 89/2012 Sb.",
+          "§ 580 z. č. 89/2012 Sb.",
+          "§ 86 z. č. 257/2016 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/bda8b1bf-4048-48c4-beb2-30bd370283e5"
+      },
+      "warnings": null
+    },
+    "b318912e-a4e8-4193-bfae-f5173c97f099": {
+      "ecli": "ECLI:CZ:OSPB:2021:9.C.149.2021.5",
+      "filepath": "data/rozhodnuti/decisions/b318912e-a4e8-4193-bfae-f5173c97f099.json",
+      "metadata": {
+        "jednaciCislo": "9 C 149/2021-30",
+        "soud": "Okresní soud v Příbrami",
+        "autor": "JUDr. Vlasta Cízlová",
+        "ecli": "ECLI:CZ:OSPB:2021:9.C.149.2021.5",
+        "predmetRizeni": "zaplacení 13 000 Kč s příslušenstvím",
+        "datumVydani": "2021-10-26",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "peněžité plnění"
+        ],
+        "zminenaUstanoveni": [
+          "§ 142 z. č. 99/1963 Sb.",
+          "§ 101 z. č. 99/1963 Sb.",
+          "§ 1970 z. č. 89/2012 Sb.",
+          "§ 115a z. č. 99/1963 Sb.",
+          "§ 149 z. č. 99/1963 Sb.",
+          "§ 160 z. č. 99/1963 Sb.",
+          "§ 137 z. č. 99/1963 Sb.",
+          "§ 2048 z. č. 89/2012 Sb.",
+          "§ 11 vyhl. č. 177/1996 Sb.",
+          "§  z. č. 120/2001 Sb.",
+          "§ 1970 nař. vl. č. 351/2013 Sb.",
+          "§ 251 z. č. 99/1963 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/b318912e-a4e8-4193-bfae-f5173c97f099"
+      },
+      "warnings": null
+    },
+    "522a6ed8-f068-41ef-9432-e93e01a97e35": {
+      "ecli": "ECLI:CZ:OSMB:2021:20.C.298.2021.1",
+      "filepath": "data/rozhodnuti/decisions/522a6ed8-f068-41ef-9432-e93e01a97e35.json",
+      "metadata": {
+        "jednaciCislo": "20 C 298/2021-34",
+        "soud": "Okresní soud v Mladé Boleslavi",
+        "autor": "JUDr. Petra Svobodová",
+        "ecli": "ECLI:CZ:OSMB:2021:20.C.298.2021.1",
+        "predmetRizeni": "o zaplacení 9 060,54 Kč s příslušenstvím",
+        "datumVydani": "2021-11-23",
+        "datumZverejneni": "2022-01-03",
+        "klicovaSlova": [
+          "peněžité plnění",
+          "smlouva o úvěru"
+        ],
+        "zminenaUstanoveni": [
+          "§ 142 z. č. 99/1963 Sb.",
+          "§ 2395 z. č. 89/2012 Sb.",
+          "§ 1970 nař. vl. č. 351/2013 Sb.",
+          "§ 2399 z. č. 89/2012 Sb."
+        ],
+        "odkaz": "https://rozhodnuti.justice.cz/api/finaldoc/522a6ed8-f068-41ef-9432-e93e01a97e35"
+      },
+      "warnings": null
+    }
+  }
+}
