@@ -1,0 +1,97 @@
+=========================================================
+DATASET – FINGERPRINT / AUTHORSHIP ANALÝZA SOUDCŮ ÚS
+=========================================================
+
+ÚČEL
+----
+Korpus textů 4 ústavních soudců pro stylometrickou analýzu
+autorství / detekci ghostwritingu.
+
+
+AUTOŘI
+------
+1. Šimíček
+2. Sládeček
+3. Zemánek
+4. Filip
+
+
+STRUKTURA SLOŽEK
+----------------
+/<prijmeni>/
+    *.<ext>                     ← odborné články
+    /komentar_<zakon>/          ← jen u Šimíčka, Filipa, Sládečka
+        *.<ext>                 ← komentáře k jednotlivým ustanovením
+
+Komentáře:
+  - Šimíček : komentář k ZÚS
+  - Filip   : komentář k ZÚS
+  - Sládeček: komentář k zVOPaOPD, komentář k Ústavě
+
+
+KONVENCE doc_id
+---------------
+ČLÁNKY
+  prijmeni rok                  např. Šimíček 2018
+  prijmeni rok_a / _b / ...     pro více článků v témže roce
+
+KOMENTÁŘE (návrh – dvě varianty, vybrat jednu)
+
+  (a) granularita po ustanoveních:
+      prijmeni_komentar<ZAKON>_<ustanoveni>
+      např. simicek_komentarZUS_§15
+            sladecek_komentarZVOP_§22
+
+  (b) jeden dokument za celý komentář:
+      prijmeni_komentar<ZAKON>
+      např. filip_komentarZUS
+
+  Varianta (a) zachová možnost analýzy po jednotkách, ale chunky
+  jsou často krátké. Varianta (b) dá robustnější fingerprint,
+  ztrácí ale rozlišení na úrovni ustanovení.
+
+
+PREPROCESSING KOMENTÁŘŮ – CO ODSTRANIT
+--------------------------------------
+Pracujeme POUZE s vlastním textem autora. Z každého komentáře
+vyříznout:
+
+  1) doslovné znění zákona (úvod komentáře)
+  2) sekci "zdroje" / literatura (pokud je)
+  3) "důvodová zpráva" – NENÍ autorský text, vždy vyhodit
+  4) jakékoli další citované oficiální dokumenty (většinou v úvodu)
+
+Vlastní text autora obvykle začíná číslovaným odstavcem "1."
+(odstavce 1–n). Tam, kde číslování je, řez je triviální.
+
+
+PROBLEMATICKÉ PŘÍPADY – KOMENTÁŘE BEZ ČÍSLOVÁNÍ
+------------------------------------------------
+U některých komentářů odstavce číslované nejsou a hranice mezi
+důvodovou zprávou a vlastním komentářem není jednoznačná. Týká se
+zejména:
+
+  - komentář k ZÚS (některá ustanovení)
+  - Sládečkův komentář k zVOPaOPD
+
+ROZHODNUTÍ:
+  - Sládeček, zVOPaOPD: VYŘADIT komentáře k § 1 a § 1a
+    + komentář k úvodu zákona. Špatně se kouskují, riziko
+    kontaminace cizím textem (DZ) je vysoké.
+  - U ostatních nejasných případů: pokud nelze spolehlivě
+    oddělit autorský text od DZ → raději vyřadit než nechat
+    znečištěný chunk.
+
+
+OTEVŘENÉ OTÁZKY / TO-DO
+-----------------------
+[ ] zvolit variantu (a) vs. (b) pro doc_id u komentářů
+[ ] sjednotit kódování souborů (UTF-8) a příponu ???
+[ ] u článků: máme všechny v plnotextu, nebo část jen jako PDF
+    a bude třeba OCR?
+[ ] minimální délka chunku – co s krátkými komentáři
+    (např. <300 slov), zahrnout / vyřadit / mergovat?
+[ ] sanity check: kolik tokenů na autora po preprocessing?
+    (pro vyvážení korpusu mezi autory)
+
+=========================================================
