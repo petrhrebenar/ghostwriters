@@ -23,3 +23,28 @@ Překopat model aby rozpoznávqal ty jednotlivé soudce
 Ideální případ je mít model pro každého soudce, u každého soudce může fungovat něco jiného 
 
 
+Call TK + P 19/5
+
+- vedle yap agendy brainstorming fahrplanu k ESELS konferenci: 
+  Fahrplan:
+  	- stahneme nalus (TJ+TP)
+  		-> rozdělí se databaze a udělá se anotace
+  	- 2 fingerprinty: podle disentu (experiment 2) + papery (P poslal uschovnu TK - https://www.uschovna.cz/zasilka/VFDUIR8KBN6UCKKW-XMK/)
+  	- budeme se dívat na výsledky podle (a) profilu soudce a (b) složitost typu casu dle rozhodnutí
+
+  Tasky:
+    todo Petr (done 20/5):
+    	- formace / grounds / typ rozhodnutí
+    	- background soudce
+    	- penize na anotatory
+
+    todo tk:
+    	- anotace
+    	- rozkouskovat papery pdf -> json/csv
+
+    todo tompol:
+    	- stáhne databazi
+
+-------
+sidenote k paper databazi (pilot zde: https://www.uschovna.cz/zasilka/VFDUIR8KBN6UCKKW-XMK/) v separe README-PAPERS
+
