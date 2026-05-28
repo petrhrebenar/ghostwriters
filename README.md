@@ -69,3 +69,9 @@ csv struktura
 | `outcome` | High-level outcome — rejected, granted, etc. | `granted` |
 | `length_proceeding` | Duration of the proceeding in days | `58` |
 
+
+
+
+
+Papers plaintext ulozene tu: https://drive.google.com/drive/folders/1nEOOD5-H3C67XQDfoe1kv1gBZhOvjHh_?usp=sharing
+
