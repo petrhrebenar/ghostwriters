@@ -48,3 +48,17 @@ Call TK + P 19/5
 -------
 sidenote k paper databazi (pilot zde: https://www.uschovna.cz/zasilka/VFDUIR8KBN6UCKKW-XMK/) v separe README-PAPERS
 
+
+Meet 1/6
+
+next steps:
+  1. vydefinovat anotace
+  2. rozebehnout factgenie - server
+  3. Petr pripravi strukturu databaze
+  4. P+TJ anotuji X 
+  5. rozebhne se znovu authorship
+
+- ad anotace
+  - step 1: připravit definice pro SPRINT podle TJ anotací 
+  - factgenie + sprint
+
