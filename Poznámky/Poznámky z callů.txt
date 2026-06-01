@@ -52,13 +52,9 @@ sidenote k paper databazi (pilot zde: https://www.uschovna.cz/zasilka/VFDUIR8KBN
 Meet 1/6
 
 next steps:
-  1. vydefinovat anotace
+  1. vydefinovat anotace (Petr done 1/6, pending review od TK)
   2. rozebehnout factgenie - server
-  3. Petr pripravi strukturu databaze
-  4. P+TJ anotuji X 
+  x3. Petr pripravi strukturu databaze (done 1/6 see /Poznámky/variable_reference.md)
+  4. P+TJ anotuji X casu
   5. rozebhne se znovu authorship
-
-- ad anotace
-  - step 1: připravit definice pro SPRINT podle TJ anotací 
-  - factgenie + sprint
 
