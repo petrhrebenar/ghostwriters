@@ -32,6 +32,10 @@ scrapers/nalus_v2/data/
 scrapers/**/progress.json
 scrapers/**/summary.json
 
+# Annotation input/output (generated from scraped data; shared via fileshare)
+annotation/decisions_to_annotate/
+annotation/annotated/
+
 # IDE
 .idea/
 .vscode/
