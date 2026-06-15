@@ -36,6 +36,12 @@ scrapers/**/summary.json
 annotation/decisions_to_annotate/
 annotation/annotated/
 
+# LLM annotation pipeline data (generated from scraped data)
+annotation/data/
+
+# Local archives / data snapshots (reversibility backups, not versioned)
+.archive/
+
 # IDE
 .idea/
 .vscode/
