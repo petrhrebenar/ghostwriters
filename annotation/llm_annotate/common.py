@@ -43,11 +43,33 @@ def decision_url(rec_id: str) -> str:
     """Working NALUS URL for a decision, built from its file id."""
     return f"{NALUS_BASE_URL}?sz={quote(rec_id, safe='')}"
 
-LABELS = ["RATIO", "DIS", "CON"]
+# Full 9-category structural scheme (see Poznámky/anotacni_schema_US.md).
+# Listed in canonical document order.
+LABELS = ["HEAD", "REC", "PART", "PROC", "FACT", "RATIO", "DISP", "DIS", "CON"]
+
 LABEL_COLORS = {
-    "RATIO": "#2c7fb8",  # blue  - court's own reasoning
-    "DIS": "#d62728",    # red   - dissenting opinion
-    "CON": "#2ca02c",    # green - concurring opinion
+    "HEAD": "#7f7f7f",   # grey   - header
+    "REC": "#ff7f0e",    # orange - recapitulation of petition (applicant)
+    "PART": "#8c564b",   # brown  - other parties' statements
+    "PROC": "#9467bd",   # purple - procedural prerequisites
+    "FACT": "#17becf",   # cyan   - factual background (court, neutral)
+    "RATIO": "#2c7fb8",  # blue   - ratio decidendi (primary target)
+    "DISP": "#bcbd22",   # olive  - disposition (verdict)
+    "DIS": "#d62728",    # red    - dissenting opinion
+    "CON": "#2ca02c",    # green  - concurring opinion
+}
+
+# Short Czech glosses for the HTML legend.
+LABEL_DESC = {
+    "HEAD": "záhlaví",
+    "REC": "rekapitulace stížnosti (stěžovatel)",
+    "PART": "vyjádření ostatních účastníků",
+    "PROC": "procesní předpoklady",
+    "FACT": "skutkové/procesní pozadí (řeč soudu)",
+    "RATIO": "vlastní odůvodnění soudu",
+    "DISP": "výrok",
+    "DIS": "odlišné (disentní) stanovisko",
+    "CON": "souhlasné (konkurující) stanovisko",
 }
 
 # Metadata fields copied from the scraped JSON into the cleaned artifact.

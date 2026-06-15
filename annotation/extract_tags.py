@@ -23,9 +23,10 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
-LABELS = ["RATIO", "DIS", "CON"]
-RE_SPAN = re.compile(r"<(RATIO|DIS|CON)>(.*?)</\1>", re.DOTALL)
-RE_ANY_TAG = re.compile(r"</?(RATIO|DIS|CON)>")
+LABELS = ["HEAD", "REC", "PART", "PROC", "FACT", "RATIO", "DISP", "DIS", "CON"]
+_LBL = "|".join(LABELS)
+RE_SPAN = re.compile(rf"<({_LBL})>(.*?)</\1>", re.DOTALL)
+RE_ANY_TAG = re.compile(rf"</?({_LBL})>")
 
 
 def _strip_comments(text: str) -> str:

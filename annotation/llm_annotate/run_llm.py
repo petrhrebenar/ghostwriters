@@ -60,32 +60,64 @@ def extract_json(content: str) -> Optional[Dict]:
     return None
 
 
-def validate_spans(spans: List[Dict], n_lines: int) -> Tuple[List[Dict], List[str]]:
-    """Return (clean_spans, problems). Drops malformed spans; flags overlaps."""
-    problems: List[str] = []
-    clean: List[Dict] = []
-    for i, sp in enumerate(spans):
-        label = sp.get("label")
-        s, e = sp.get("start_line"), sp.get("end_line")
-        if label not in LABELS:
-            problems.append(f"span {i}: bad label {label!r}")
-            continue
-        if not isinstance(s, int) or not isinstance(e, int):
-            problems.append(f"span {i} ({label}): non-integer line refs")
-            continue
-        if not (1 <= s <= e <= n_lines):
-            problems.append(f"span {i} ({label}): out-of-range [{s},{e}] (n={n_lines})")
-            continue
-        clean.append({"label": label, "start_line": s, "end_line": e})
+def segments_to_spans(segments: List[Dict], n_lines: int) -> Tuple[List[Dict], List[str]]:
+    """Expand boundary segments into a verified line partition.
 
-    clean.sort(key=lambda x: x["start_line"])
-    for a, b in zip(clean, clean[1:]):
-        if b["start_line"] <= a["end_line"]:
-            problems.append(
-                f"overlap: {a['label']}[{a['start_line']},{a['end_line']}] & "
-                f"{b['label']}[{b['start_line']},{b['end_line']}]"
-            )
-    return clean, problems
+    Input segments are ``{start_line, label}`` (each runs until the next).
+    Returns (spans, problems) where spans are ``{label, start_line, end_line}``
+    tiling lines 1..n_lines with no gaps/overlaps. Adjacent same-label runs are
+    merged. Violations are flagged (not raised) so the doc is still usable.
+    """
+    problems: List[str] = []
+
+    # Keep only well-formed boundary entries.
+    bounds: List[Dict] = []
+    for i, seg in enumerate(segments):
+        label = seg.get("label")
+        s = seg.get("start_line")
+        if label not in LABELS:
+            problems.append(f"segment {i}: bad label {label!r}")
+            continue
+        if not isinstance(s, int):
+            problems.append(f"segment {i} ({label}): non-integer start_line {s!r}")
+            continue
+        if not (1 <= s <= n_lines):
+            problems.append(f"segment {i} ({label}): start_line {s} out of range (n={n_lines})")
+            continue
+        bounds.append({"label": label, "start_line": s})
+
+    if not bounds:
+        problems.append("no valid segments")
+        return [], problems
+
+    # Order by start; drop duplicate/non-increasing starts.
+    bounds.sort(key=lambda x: x["start_line"])
+    dedup: List[Dict] = []
+    for b in bounds:
+        if dedup and b["start_line"] == dedup[-1]["start_line"]:
+            problems.append(f"duplicate start_line {b['start_line']} ({dedup[-1]['label']} vs {b['label']}); kept first")
+            continue
+        dedup.append(b)
+    bounds = dedup
+
+    if bounds[0]["start_line"] != 1:
+        problems.append(f"first segment starts at {bounds[0]['start_line']}, not 1; forced to 1")
+        bounds[0]["start_line"] = 1
+
+    # Expand to [start, end] runs covering the whole document.
+    spans: List[Dict] = []
+    for j, b in enumerate(bounds):
+        end = (bounds[j + 1]["start_line"] - 1) if j + 1 < len(bounds) else n_lines
+        spans.append({"label": b["label"], "start_line": b["start_line"], "end_line": end})
+
+    # Merge adjacent same-label runs (consecutive segments must differ).
+    merged: List[Dict] = []
+    for sp in spans:
+        if merged and merged[-1]["label"] == sp["label"]:
+            merged[-1]["end_line"] = sp["end_line"]
+        else:
+            merged.append(sp)
+    return merged, problems
 
 
 # ---------------------------------------------------------------------------
@@ -119,7 +151,7 @@ def process_prompt(prompt: Dict, api_key: str) -> Dict:
     if parsed is None:
         spans, problems = [], ["could not parse JSON from reply"]
     else:
-        spans, problems = validate_spans(parsed.get("spans", []), prompt["n_lines"])
+        spans, problems = segments_to_spans(parsed.get("segments", []), prompt["n_lines"])
     return {
         "id": prompt["id"],
         "model": prompt["model"],
@@ -181,8 +213,10 @@ def main() -> None:
             n_problem += 1
             tag = f"  [problems: {len(rec['problems'])}]"
         counts = {l: sum(1 for s in rec["spans"] if s["label"] == l) for l in LABELS}
-        print(f"[{i}/{len(files)}] {prompt['id']}: "
-              + ", ".join(f"{l}={counts[l]}" for l in LABELS) + tag)
+        covered = sum(s["end_line"] - s["start_line"] + 1 for s in rec["spans"])
+        full = "" if covered == rec["n_lines"] else f"  COVERAGE {covered}/{rec['n_lines']}"
+        present = ", ".join(f"{l}={counts[l]}" for l in LABELS if counts[l])
+        print(f"[{i}/{len(files)}] {prompt['id']}: {len(rec['spans'])} segs | {present}{full}{tag}")
         if args.delay:
             time.sleep(args.delay)
 

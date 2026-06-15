@@ -27,6 +27,7 @@ from .common import (
     DIR_RESPONSES,
     DIR_TAGGED,
     LABEL_COLORS,
+    LABEL_DESC,
     esc,
     meta_header_lines,
     read_json,
@@ -79,7 +80,7 @@ def build_html(rec_id: str, meta: Dict, lines: List[str], spans: List[Dict], pro
     if url:
         header = header.replace(esc(url), f'<a href="{esc(url)}" target="_blank">{esc(url)}</a>')
     legend = " ".join(
-        f'<span class="badge" style="background:{c}">{lbl}</span>'
+        f'<span class="badge" style="background:{c}" title="{esc(LABEL_DESC.get(lbl, ""))}">{lbl}</span>'
         for lbl, c in LABEL_COLORS.items()
     )
     prob_html = ""

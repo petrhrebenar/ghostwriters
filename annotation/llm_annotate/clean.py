@@ -30,6 +30,7 @@ from .common import (
     DIR_CLEANED,
     DIR_SCRAPED,
     LABEL_COLORS,
+    LABEL_DESC,
     META_FIELDS,
     decision_url,
     esc,
@@ -58,7 +59,7 @@ def preview_html(rec_id: str, meta: Dict, lines: List[str]) -> str:
         for i, ln in enumerate(lines, 1)
     )
     legend = " ".join(
-        f'<span class="badge" style="background:{c}">{lbl}</span>'
+        f'<span class="badge" style="background:{c}" title="{esc(LABEL_DESC.get(lbl, ""))}">{lbl}</span>'
         for lbl, c in LABEL_COLORS.items()
     )
     return f"""<!doctype html>

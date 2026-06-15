@@ -25,7 +25,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", default=DEFAULT_MODEL, help="OpenRouter model id")
     ap.add_argument("--temperature", type=float, default=0.0)
-    ap.add_argument("--max-tokens", type=int, default=4096)
+    ap.add_argument("--max-tokens", type=int, default=8192)
     ap.add_argument("--limit", type=int, default=0, help="Build only first N (0 = all)")
     args = ap.parse_args()
 
