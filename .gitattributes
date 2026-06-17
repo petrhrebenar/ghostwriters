@@ -1,2 +1,5 @@
 subset.csv filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
+nss_texts_simsim.csv filter=lfs diff=lfs merge=lfs -text
+# Small analysis CSVs produced by experiment pipelines should NOT use LFS
+experiment_01/outputs/*.csv !filter !diff !merge text
+experiment_02/outputs/*.csv !filter !diff !merge text

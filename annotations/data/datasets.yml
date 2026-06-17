@@ -1,0 +1,6 @@
+ccc-decisions:
+  class: basic.JSONDataset
+  description: 'CCC court decisions: justification text for span annotation.'
+  enabled: true
+  splits:
+  - test

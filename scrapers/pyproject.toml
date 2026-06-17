@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "nalus-scraper"
+version = "0.1.0"
+description = "Scraper for NALUS Constitutional Court database"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

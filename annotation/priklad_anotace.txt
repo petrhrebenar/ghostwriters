@@ -1,0 +1,48 @@
+# spisová značka: I. ÚS 0000/00  (UKÁZKOVÝ PŘÍKLAD — není součástí korpusu)
+# typ rozhodnutí:  NÁLEZ
+# datum:           1. ledna 2020
+# zdroj:           (příklad)
+#
+# Tento soubor ukazuje, jak má vypadat hotová anotace. Značky <RATIO>, <DIS>,
+# <CON> jsou vloženy kolem příslušných pasáží; ostatní text zůstává beze změny.
+# ============================================================================
+
+Nález
+
+Ústavní soud rozhodl v senátě složeném z předsedy senátu A. B. a soudců C. D.
+a E. F. (soudce zpravodaj) o ústavní stížnosti stěžovatele X, takto:
+
+Ústavní stížnosti se vyhovuje. Rozsudek krajského soudu se ruší.
+
+Odůvodnění
+
+I. Rekapitulace ústavní stížnosti
+
+1. Stěžovatel namítá, že napadeným rozsudkem bylo porušeno jeho právo na soudní
+ochranu. Domáhá se zrušení rozsudku.
+
+II. Vyjádření účastníků řízení
+
+2. Krajský soud ve svém vyjádření navrhl zamítnutí ústavní stížnosti.
+
+III. Procesní předpoklady řízení
+
+3. Ústavní stížnost byla podána včas oprávněným stěžovatelem.
+
+IV. Posouzení důvodnosti
+
+<RATIO>
+4. Ústavní soud připomíná, že právo na soudní ochranu zahrnuje i povinnost soudu
+své rozhodnutí řádně odůvodnit. V projednávané věci krajský soud své závěry
+náležitě neodůvodnil, čímž zatížil řízení vadou ústavní intenzity.
+
+5. Z uvedených důvodů Ústavní soud uzavírá, že napadeným rozsudkem bylo porušeno
+základní právo stěžovatele, a proto ústavní stížnosti vyhověl.
+</RATIO>
+
+<DIS>
+Odlišné stanovisko soudce C. D.
+
+Nesouhlasím s výrokem nálezu. Mám za to, že odůvodnění krajského soudu bylo
+dostatečné a ústavní stížnost měla být zamítnuta.
+</DIS>
