@@ -39,6 +39,9 @@ annotation/annotated/
 # LLM annotation pipeline data (generated from scraped data)
 annotation/data/
 
+# Factgenie campaign runtime data (generated; keep code + .gitkeep only)
+annotations/campaigns/*/
+
 # Local archives / data snapshots (reversibility backups, not versioned)
 .archive/
 
