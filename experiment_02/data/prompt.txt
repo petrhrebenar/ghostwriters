@@ -1,0 +1,6 @@
+Compare the two attached documents (in Czech), authored by two different judges.
+- find stylistic, linguistic, morphologic, semantic and/or any other features that can be used to identify who wrote the text
+- the features should not be specific to thses documents - should be generalizable
+- the features should be independent of the contents, we are interested in stylistic differentiation
+
+

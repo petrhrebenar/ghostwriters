@@ -299,11 +299,23 @@ Notes:
 1. **Search driver:** by date range (full sweep, like the reference) or by
    spisová značka (targeted, incremental)? Recommend spis_zn for repeatable
    per-record runs.
-2. **Multi-author separate opinions:** drop, or split spans by in-text author
-   markers? Affects how many dissent samples per judge survive.
-3. **Score RATIO only, or RATIO vs. full text both?** Suggest running both for
-   a clean comparison against the experiment-02 baseline.
+2. **[PRIORITY] Multi-author separate opinions:** drop, or split spans by
+   in-text author markers? Unambiguous for single-dissent decisions; for
+   multi-dissent ones this governs how many dissent training samples per judge
+   survive. Decide before Stage 3 feature extraction.
+3. **[PRIORITY] Score RATIO only, or RATIO + full text both?** Run both for a
+   clean, direct comparison against the experiment-02 baseline (which scored
+   full decision text).
 4. **`judge_rapporteur_id`:** build our own judge lookup from observed names,
    or skip ids and key on normalized names?
 5. **Parser library:** BeautifulSoup vs lxml/selectolax — pick on card-table
    ergonomics (no strong preference from the user).
+
+## 9. Repo-level loose ends
+- **`subset_disent2.csv` is still tracked at repo root** (~15 MB). Keep it
+  until experiment-03 reaches parity with the experiment-02 baseline, then
+  remove/relocate it to complete the self-containment goal.
+- **Branch / dir name** is `experiment-03-llm-annotation`; rename if a
+  different slug is preferred.
+- **UDPipe model** (`czech-pdt-ud-2.5-191206.udpipe`) is not in the repo;
+  document its download and keep `models/` gitignored.
