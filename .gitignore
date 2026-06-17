@@ -33,11 +33,11 @@ scrapers/**/progress.json
 scrapers/**/summary.json
 
 # Annotation input/output (generated from scraped data; shared via fileshare)
-annotation/decisions_to_annotate/
-annotation/annotated/
+experiment_03/decisions_to_annotate/
+experiment_03/annotated/
 
 # LLM annotation pipeline data (generated from scraped data)
-annotation/data/
+experiment_03/data/
 
 # Factgenie campaign runtime data (generated; keep code + .gitkeep only)
 annotations/campaigns/*/
