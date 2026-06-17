@@ -48,13 +48,17 @@ def extract_json(content: str) -> Optional[Dict]:
     content = content.strip()
     if content.startswith("```"):
         content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content, flags=re.DOTALL)
+    # raw_decode parses the first valid object and ignores any trailing data
+    # (e.g. the model occasionally emits the JSON twice -> "Extra data").
     try:
-        return json.loads(content)
+        obj, _ = json.JSONDecoder().raw_decode(content)
+        return obj
     except json.JSONDecodeError:
         m = RE_JSON_OBJ.search(content)
         if m:
             try:
-                return json.loads(m.group(0))
+                obj, _ = json.JSONDecoder().raw_decode(m.group(0))
+                return obj
             except json.JSONDecodeError:
                 return None
     return None
