@@ -31,12 +31,21 @@ from .common import (
     DIR_PROMPTS,
     DIR_RESPONSES,
     LABELS,
+    load_env,
     read_json,
     write_json,
 )
 
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
+DEFAULT_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 RE_JSON_OBJ = re.compile(r"\{.*\}", re.DOTALL)
+
+
+def _api_url() -> str:
+    return os.environ.get("OPENROUTER_UFAL_ENDPOINT") or os.environ.get("OPENROUTER_ENDPOINT") or DEFAULT_API_URL
+
+
+def _api_key() -> Optional[str]:
+    return os.environ.get("OPENROUTER_API_KEY") or os.environ.get("OPENROUTER_UFAL_APIKEY")
 
 
 # ---------------------------------------------------------------------------
@@ -130,7 +139,7 @@ def segments_to_spans(segments: List[Dict], n_lines: int) -> Tuple[List[Dict], L
 
 def call_openrouter(prompt: Dict, api_key: str, timeout: int = 120) -> Dict:
     payload = {
-        "model": prompt["model"],
+        "model": os.environ.get("OPENROUTER_UFAL_MODEL") or prompt["model"],
         "messages": [
             {"role": "system", "content": prompt["system"]},
             {"role": "user", "content": prompt["user"]},
@@ -143,7 +152,7 @@ def call_openrouter(prompt: Dict, api_key: str, timeout: int = 120) -> Dict:
         "Content-Type": "application/json",
         "X-Title": "ghostwriters-annotation",
     }
-    resp = requests.post(API_URL, headers=headers, json=payload, timeout=timeout)
+    resp = requests.post(_api_url(), headers=headers, json=payload, timeout=timeout)
     resp.raise_for_status()
     return resp.json()
 
@@ -191,10 +200,14 @@ def main() -> None:
               f"(~{total_chars // 4:,} tokens est.). No API calls made.")
         return
 
-    api_key = os.environ.get("OPENROUTER_API_KEY")
+    load_env()
+    api_key = _api_key()
     if not api_key:
-        print("ERROR: set OPENROUTER_API_KEY in the environment.", file=sys.stderr)
+        print("ERROR: no API key. Set OPENROUTER_API_KEY or OPENROUTER_UFAL_APIKEY "
+              "(env or .env).", file=sys.stderr)
         sys.exit(2)
+    print(f"  endpoint: {_api_url()}")
+    print(f"  model:    {os.environ.get('OPENROUTER_UFAL_MODEL') or '(per-prompt baked model)'}")
 
     DIR_RESPONSES.mkdir(parents=True, exist_ok=True)
     n_ok = n_skip = n_err = n_problem = 0

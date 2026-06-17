@@ -111,6 +111,8 @@ def build_html(rec_id: str, meta: Dict, lines: List[str], spans: List[Dict], pro
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--limit", type=int, default=0, help="Render only first N (0 = all)")
+    ap.add_argument("--overwrite", action="store_true",
+                    help="Re-render existing .txt (DESTROYS manual review edits; off by default)")
     args = ap.parse_args()
 
     files = sorted(DIR_RESPONSES.glob("*.json"))
@@ -121,13 +123,18 @@ def main() -> None:
         files = files[: args.limit]
 
     DIR_TAGGED.mkdir(parents=True, exist_ok=True)
-    n = 0
+    n = n_skip = 0
     for fp in files:
         resp = read_json(fp)
+        txt_path = DIR_TAGGED / f"{resp['id']}.txt"
+        # Never clobber a hand-reviewed tagged .txt unless explicitly told to.
+        if txt_path.exists() and not args.overwrite:
+            n_skip += 1
+            continue
         cleaned = read_json(DIR_CLEANED / fp.name)
         meta, lines = cleaned["meta"], cleaned["lines"]
         spans = resp["spans"]
-        (DIR_TAGGED / f"{resp['id']}.txt").write_text(
+        txt_path.write_text(
             build_tagged_txt(meta, lines, spans), encoding="utf-8"
         )
         (DIR_TAGGED / f"{resp['id']}.html").write_text(
@@ -136,7 +143,8 @@ def main() -> None:
         )
         n += 1
 
-    print(f"Rendered {n} tagged decisions -> {DIR_TAGGED}")
+    print(f"Rendered {n} tagged decisions -> {DIR_TAGGED}"
+          + (f" ({n_skip} existing skipped; --overwrite to force)" if n_skip else ""))
 
 
 if __name__ == "__main__":

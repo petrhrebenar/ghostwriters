@@ -104,6 +104,28 @@ def ensure_dirs() -> None:
         d.mkdir(parents=True, exist_ok=True)
 
 
+def load_env() -> None:
+    """Load KEY=VALUE pairs from the nearest ``.env`` into ``os.environ``.
+
+    Walks up from this package to the repo root. Existing env vars win. Never
+    prints values (the file holds the API key). No external dependency.
+    """
+    import os
+
+    for base in [ANNOTATION_DIR, *ANNOTATION_DIR.parents]:
+        env = base / ".env"
+        if not env.exists():
+            continue
+        for line in env.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, val = line.partition("=")
+            key, val = key.strip(), val.strip().strip('"').strip("'")
+            os.environ.setdefault(key, val)
+        return
+
+
 # ---------------------------------------------------------------------------
 # Line numbering / rendering
 # ---------------------------------------------------------------------------

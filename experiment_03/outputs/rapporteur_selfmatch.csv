@@ -1,0 +1,20 @@
+rapporteur,n,P_self,best_other,P_best_other,bucket
+Iva Brožová,1,0.964,Stanislav Balík,0.893,self-match
+Ivana Janů,7,0.4,Jan Musil,0.084,self-match
+Radovan Suchánek,16,0.282,Stanislav Balík,0.14,self-match
+Stanislav Balík,5,0.279,Radovan Suchánek,0.412,cross-attrib
+Vladimír Kůrka,7,0.266,Radovan Suchánek,0.101,self-match
+Jan Musil,7,0.243,Ivana Janů,0.184,self-match
+Pavel Varvařovský,3,0.226,Ivana Janů,0.201,self-match
+Vladimír Sládeček,3,0.07,Eliška Wagnerová,0.302,cross-attrib
+Ludvík David,18,0.063,Josef Fiala,0.556,cross-attrib
+Vojtěch Šimíček,35,0.047,Radovan Suchánek,0.241,cross-attrib
+Eliška Wagnerová,22,0.037,Radovan Suchánek,0.195,cross-attrib
+Miloslav Výborný,5,0.023,Ivana Janů,0.305,cross-attrib
+Kateřina Šimáčková,9,0.019,Ivana Janů,0.385,cross-attrib
+Jiří Nykodým,13,0.016,Ivana Janů,0.103,no-signal
+Josef Fiala,5,0.016,Ivana Janů,0.064,no-signal
+Jan Filip,16,0.009,Radovan Suchánek,0.266,cross-attrib
+David Uhlíř,5,0.008,Ivana Janů,0.174,cross-attrib
+Jiří Zemánek,14,0.004,Josef Fiala,0.468,cross-attrib
+Michaela Židlická,7,0.004,Ivana Janů,0.288,cross-attrib

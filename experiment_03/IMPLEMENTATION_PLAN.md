@@ -101,7 +101,7 @@ judge table from observed names).
 - **Plenary decisions are silently dropped** — `scrapers/extract_spis_zn.py`
   `ecli_to_spis_zn()` regex `ECLI:CZ:US:(\d+):(\d+)\.US\.…` requires a *digit*
   senate code, so `Pl.US` (plenum) never matches. This is why we have 236
-  decisions instead of the full ~272. **Trivial fix**: widen the senate group
+  decisions instead of the full 309 (73 plenary). **Trivial fix**: widen the senate group
   to accept `Pl`. Plenary decisions are full-court rulings and are **not**
   disqualified from the analysis — they should be included.
 
@@ -119,7 +119,7 @@ paginate, collect `id`s, visit each `ResultDetail.aspx?id=`, parse the card.
 - **Pros:** proven to work; robust to ASP.NET statefulness; the session,
   cookies, viewstate and pagination postbacks are handled by the browser.
 - **Cons:** heavy dependency (browser + driver); slower. Irrelevant at our
-  scale (~272 records).
+  scale (~309 records).
 - **Effort:** low (blueprint exists). **Risk:** low.
 
 ### Option B — `requests`/`httpx` session emulating the ASP.NET postbacks  ✅ CHOSEN
@@ -215,7 +215,7 @@ Notes:
 
 ### Stage 1 — Scrape (Option B)
 - Fix the plenary regex in the ECLI→spis_zn converter; regenerate the
-  `spis_zn` list so plenary (`Pl.ÚS`) decisions are included (~272 total).
+  `spis_zn` list so plenary (`Pl.ÚS`) decisions are included (309 total: 236 senate + 73 plenary).
 - Implement `scrape/` (search → ids → card parse → JSON with metadata +
   full_text). Output to `data/01_scraped/<id>.json`.
 - **Acceptance:** every record JSON has non-null `judge_rapporteur_name`
@@ -289,27 +289,37 @@ Notes:
 | Plenary regex fix + regenerate list | minutes | none |
 | Option B scraper (search handshake + card parser) | ~0.5–1 day | medium (ASP.NET) |
 | Selenium/Playwright fallback (if needed) | ~0.5 day | low |
-| Wire annotation over full ~272 corpus | hours | low |
+| Wire annotation over the 73 new plenary decisions | hours | low |
 | `build_dataset.py` + authorship mapping rule | ~0.5 day | medium (multi-author dissents) |
 | Port + rewrite `data_loader` and rerun analysis | ~0.5–1 day | low–medium |
 
 ---
 
-## 8. Open questions to resolve at implementation time
-1. **Search driver:** by date range (full sweep, like the reference) or by
-   spisová značka (targeted, incremental)? Recommend spis_zn for repeatable
-   per-record runs.
-2. **[PRIORITY] Multi-author separate opinions:** drop, or split spans by
-   in-text author markers? Unambiguous for single-dissent decisions; for
-   multi-dissent ones this governs how many dissent training samples per judge
-   survive. Decide before Stage 3 feature extraction.
-3. **[PRIORITY] Score RATIO only, or RATIO + full text both?** Run both for a
-   clean, direct comparison against the experiment-02 baseline (which scored
-   full decision text).
-4. **`judge_rapporteur_id`:** build our own judge lookup from observed names,
-   or skip ids and key on normalized names?
-5. **Parser library:** BeautifulSoup vs lxml/selectolax — pick on card-table
-   ergonomics (no strong preference from the user).
+## 8. Open questions — RESOLVED (2026-06-17)
+1. **Search driver / corpus source.** Self-containment achieved by committing
+   the seed list as a tracked artifact: `scrape/build_seed_list.py` bootstraps
+   `corpus/seed_spis_zn.txt` **once** from the legacy CSV (the only place the CSV
+   is read), then the scraper reads the committed list. Result: **309** file ids
+   = 236 senate + **73 plenary** (the plenary-regex fix; see §2.3). The CSV can
+   be removed once parity is reached (§9). A NALUS date-range crawl remains the
+   documented path to *regenerate* the list from scratch if ever needed.
+2. **Multi-author separate opinions — span-heading attribution.** The annotation
+   schema emits one tag-pair per judge, so multi-judge decisions already arrive
+   as separate spans. `authorship.py` reads the judge from each span's heading
+   ("Odlišné stanovisko soudce <Name>", in genitive) and, when scraped
+   `separate_opinion` is present, matches it to the clean nominative name.
+   Validated: 233/235 spans named, 13 judges with ≥5 opinions. No spans dropped.
+3. **Score RATIO and full text — run both.** Train per-judge on DIS/CON spans;
+   score `ratio_text` (the improvement) and, for a like-for-like comparison with
+   the experiment-02 baseline, optionally the full decision text too.
+4. **`judge_rapporteur_id`:** key on normalized names; build our own lookup from
+   observed names only if needed (no external judge table).
+5. **Parser library:** BeautifulSoup (already a dep) for the card table; `lxml`
+   available as the parser backend.
+
+**Other resolved choices:** keep the human-reviewed 236 annotations and run the
+LLM only on the 73 new plenary decisions (annotation is metadata-independent);
+**flat** directory layout under `experiment_03/` (no `src/` package).
 
 ## 9. Repo-level loose ends
 - **`subset_disent2.csv` is still tracked at repo root** (~15 MB). Keep it

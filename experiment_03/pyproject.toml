@@ -1,0 +1,29 @@
+[tool.poetry]
+# Self-contained environment for experiment_03. Not packaged/installed — run the
+# stage scripts from the experiment_03/ directory (see README), e.g.
+#   poetry run python scripts/06_analyze.py
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11.0a0,<4.0"
+# scrape + annotate
+requests = ">=2.31"
+beautifulsoup4 = ">=4.12"
+lxml = ">=5.0"
+# record-card scraper: Firefox + geckodriver driven via Selenium (Option A,
+# the reference ccc_dataset transport; pure-HTTP ASP.NET postback is too brittle)
+selenium = ">=4.18"
+# dataset
+pyarrow = ">=15.0"
+# analysis (ported from experiment_02)
+pandas = ">=2.0,<4.0"
+numpy = ">=1.24,<3.0"
+scikit-learn = ">=1.3,<2.0"
+matplotlib = ">=3.7,<4.0"
+seaborn = ">=0.13,<1.0"
+ufal-udpipe = ">=1.4.0.1"
+xgboost = ">=1.7,<3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
