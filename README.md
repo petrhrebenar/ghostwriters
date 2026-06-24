@@ -15,6 +15,8 @@
   *Detecting Multiple Authorship of United States Supreme Court Legal Decisions*  
 
 - [**Avraham et al. (2025)**](https://academic.oup.com/jla/article/17/1/2/8098035?login=false)
+  
+- https://ocnk.ff.cuni.cz/cs/ - zeptat se na dyachronní synchronní corpusy a na literaturu ohledně nich
 
 ## 3. Data Processing and Subset Construction
 
